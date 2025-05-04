@@ -48,14 +48,6 @@ class Profile(BaseModel):
     linkedin = models.URLField(blank=True, null=True)
     resume = models.FileField(upload_to="resumes/", blank=True, null=True)
 
-    # Social
-    followers = models.ManyToManyField(User, related_name='following', blank=True)
-    following = models.ManyToManyField(User, related_name='followers', blank=True)
-
-    # Activity
-    score = models.IntegerField(default=0)  # کل امتیاز
-    rank = models.CharField(max_length=50, default="rookie")  # rookie, elite, master, legend...
-
 
     def __str__(self):
         return f"{self.display_name}'s profile"

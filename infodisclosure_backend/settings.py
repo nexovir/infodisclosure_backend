@@ -45,17 +45,23 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'nested_admin',
     'graphene_django',
     'users',
     'workplace',
+    'writeups',
+    
 ]
 
 
 
 GRAPHENE = {
     "SCHEMA": "infodisclosure_backend.schema.schema", # فایل schema.py که بعدا می‌سازیم
-    
+
+    'MIDDLEWARE': [
+        'graphql_jwt.middleware.JSONWebTokenMiddleware',
+    ],
+
 
 }
 
