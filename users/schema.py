@@ -83,4 +83,3 @@ class LoginUser(graphene.Mutation):
 class Mutation(graphene.ObjectType):
     Signup = SignupUser.Field()
     Login = LoginUser.Field()
-

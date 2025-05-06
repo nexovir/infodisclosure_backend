@@ -1,11 +1,12 @@
 from django.contrib import admin
 from django.contrib.admin import register
-import nested_admin
 from .models import *
+import nested_admin
+
 
 
 class SubCategoryInline(nested_admin.NestedTabularInline):
-    model = WriteupCategory
+    model = TechniquesCategory
     fk_name = 'parent'
     extra = 1
     prepopulated_fields = {'slug': ('title',)}
@@ -13,7 +14,8 @@ class SubCategoryInline(nested_admin.NestedTabularInline):
 
 
 
-@register(WriteupCategory)
+
+@register(TechniquesCategory)
 class CategoryAdmin(nested_admin.NestedModelAdmin):
     list_display = ('title', 'slug', 'parent' , 'is_active')
     search_fields = ('title',)
@@ -24,10 +26,10 @@ class CategoryAdmin(nested_admin.NestedModelAdmin):
     list_editable = ('is_active',)
 
 
-@register(WriteUp)
-class WriteUpAdmin(admin.ModelAdmin):
-    list_display = ['id', 'author', 'title' , 'category', 'vulnerability_type', 'target_type', 'price' , 'purchase_count' , 'is_free' , 'is_public' , 'approved' , 'is_active']
-    list_editable = ['approved' , 'is_active']
-    prepopulated_fields = {'slug': ('title',)}
-    ordering = ('id',)
-    list_per_page = 20
+
+
+@register(Techniques)
+class TechniquesAdmin(admin.ModelAdmin):
+    list_display = ['id' , 'author' , 'title' , 'category' , 'difficulty'  , 'is_active']
+    list_display_links = ['id', 'author',]
+    list_editable = ['is_active']

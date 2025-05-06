@@ -1,12 +1,12 @@
 import graphene
 from graphene_django.types import DjangoObjectType
-from .models import WriteUp, Category
+from .models import *
 
 
 
 class CategoryType(DjangoObjectType):
     class Meta:
-        model = Category
+        model = WriteupCategory
         fields = '__all__'
 
 
@@ -43,7 +43,7 @@ class CreateWriteUp(graphene.Mutation):
         if user.is_anonymous:
             raise Exception("Authentication required")
 
-        category = Category.objects.get(id=category_id)
+        category = WriteupCategory.objects.get(id=category_id)
 
         writeup = WriteUp.objects.create(
             title=title,

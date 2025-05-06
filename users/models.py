@@ -43,9 +43,7 @@ class Profile(BaseModel):
 
     # Links
     website = models.URLField(blank=True, null=True)
-    github = models.URLField(blank=True, null=True)
-    twitter = models.URLField(blank=True, null=True)
-    linkedin = models.URLField(blank=True, null=True)
+    social_links = models.JSONField(default=list)
     resume = models.FileField(upload_to="resumes/", blank=True, null=True)
 
 

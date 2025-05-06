@@ -48,8 +48,9 @@ INSTALLED_APPS = [
     'nested_admin',
     'graphene_django',
     'users',
-    'workplace',
+    'tools',
     'writeups',
+    'techniques',
     
 ]
 
