@@ -47,16 +47,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'nested_admin',
     'graphene_django',
+    'django_celery_beat',
     'users',
     'tools',
     'writeups',
     'techniques',
     'zerodays',
     'watchers',
+    
         
 ]
-
-
 
 GRAPHENE = {
     "SCHEMA": "infodisclosure_backend.schema.schema", # فایل schema.py که بعدا می‌سازیم
@@ -157,3 +157,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CELERY_BROKER_URL = 'redis://localhost:6379/0'  
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_TIMEZONE = 'UTC'
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'

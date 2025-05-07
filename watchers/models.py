@@ -5,8 +5,10 @@ from django.contrib.auth.models import User
 
 
 class ProgramWatcher(BaseModel):
-    platforms = models.JSONField(default=list)
-    last_checked = models.DateTimeField()
+    platform_name = models.CharField(max_length=150 , blank=False , null=False)
+    platform_url = models.URLField(blank=False , null=False)
+    check_time = models.IntegerField(default=12)
+    last_checked = models.DateTimeField(blank=True , null=True)
     STATUSES = [
         ('pending', 'Pending'),
         ('running' , 'Running'),    
@@ -19,7 +21,7 @@ class ProgramWatcher(BaseModel):
     notify = models.BooleanField(default=False)
 
     def __str__(self):
-        return f"{self.platforms} - {self.status}"
+        return f"{self.platform_name} - {self.status}"
     
     class Meta :
         verbose_name = 'Program Watcher'
@@ -161,6 +163,16 @@ class SubdomainHttpx(BaseModel):
     port = models.IntegerField()
 
 
+    def __str__(self):
+        return f"{self.discovered_subdomain.subdomain} - {self.status_code}"
+
+    
+    class Meta :
+        verbose_name = 'Subdomain Httpx'
+        verbose_name_plural = 'Subdomain Httpxes'
+
+
+
 
 
 
@@ -179,6 +191,17 @@ class JSFileWatcher (BaseModel):
     notify = models.BooleanField(default=False)
 
 
+    def __str__(self):
+        return f"{self.user.username} - {self.status}"
+
+    
+    class Meta :
+        verbose_name = 'JSFileWatcher'
+        verbose_name_plural = 'JSFileWatchers'
+
+
+
+
 
 
 class JSFileWatchList(BaseModel):
@@ -186,3 +209,51 @@ class JSFileWatchList(BaseModel):
     name = models.CharField(max_length=150)
 
     
+    def __str__(self):
+        return f"{self.jsfilewatcher.user.username} - {self.name}"
+
+    
+    class Meta :
+        verbose_name = 'JSFileWatchList'
+        verbose_name_plural = 'JSFileWatchLists'
+
+
+
+
+
+class WatchedJSFile(BaseModel):
+    jsfilewatchlist = models.ForeignKey(JSFileWatchList , on_delete=models.CASCADE)
+    file_url = models.URLField(max_length=150)
+    current_hash = models.CharField(max_length=150 , blank=True , null=True)
+    last_checked = models.DateTimeField()
+    has_changed = models.BooleanField(default=False)
+
+
+    def __str__(self):
+        return f"{self.jsfilewatchlist.name} - {self.last_checked}"
+
+    
+    class Meta :
+        verbose_name = 'WatchedJSFile'
+        verbose_name_plural = 'WatchedJSFiles'
+
+
+
+
+class WatchedJSFileChanged(BaseModel):
+    watchedjsfile = models.ForeignKey(WatchedJSFile , on_delete=models.CASCADE)
+    old_hash = models.CharField(max_length=150 , blank=False , null=True)
+    new_hash = models.CharField(max_length=150 , blank=False , null=True)
+    diff_snipped = models.CharField(max_length=150 , blank=False , null=True)
+    changed_at = models.DateTimeField()
+
+
+    def __str__(self):
+        return f"{self.watchedjsfile.jsfilewatchlist.name} - {self.changed_at}"
+
+    
+    class Meta :
+        verbose_name = 'WatchedJSFileChanged'
+        verbose_name_plural = 'WatchedJSFileChangeds'
+
+
