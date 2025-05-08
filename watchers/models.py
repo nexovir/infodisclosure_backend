@@ -42,10 +42,10 @@ class DiscoverdProgram(BaseModel):
     ]
     type = models.CharField(max_length=100 , choices=TYPES , blank=False , null=False)
     discovered_at = models.DateTimeField(auto_now=True)
-    is_new = models.BooleanField(default=True)
+    lable = models.CharField(max_length=100 , null=False , blank=False , default="AVAILABLE")
 
     def __str__(self):
-        return f"{self.watcher} : {self.name} -> {self.is_new}"
+        return f"{self.watcher} : {self.name} -> {self.lable}"
     
     class Meta:
         verbose_name = 'Discoverd Program'
