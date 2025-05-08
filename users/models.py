@@ -19,8 +19,8 @@ class Profile(BaseModel):
     # General
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="profile")
     display_name = models.CharField(max_length=50)
-    avatar = models.ImageField(upload_to="avatars/", blank=True, null=True)
-    banner = models.ImageField(upload_to="banners/", blank=True, null=True)
+    avatar = models.ImageField(upload_to="users/avatars/", blank=True, null=True)
+    banner = models.ImageField(upload_to="users/banners/", blank=True, null=True)
     bio = models.TextField(max_length=500, blank=True)
     is_available_for_collab = models.BooleanField(default=False)
 
@@ -44,7 +44,7 @@ class Profile(BaseModel):
     # Links
     website = models.URLField(blank=True, null=True)
     social_links = models.JSONField(default=list)
-    resume = models.FileField(upload_to="resumes/", blank=True, null=True)
+    resume = models.FileField(upload_to="users/resumes/", blank=True, null=True)
 
 
     def __str__(self):

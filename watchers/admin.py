@@ -59,10 +59,11 @@ class ProgramWatcherAdmin(admin.ModelAdmin):
 
 @admin.register(DiscoverdProgram)
 class DiscoverdProgramAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'url', 'is_new', 'discovered_at')
-    list_filter = ('is_new',)
+    list_display = ('id', 'name', 'url', 'type','is_new', 'discovered_at')
+    list_filter = ('is_new', 'type')
     search_fields = ('name', 'url')
     ordering = ('-discovered_at',)
+    list_per_page = 20
     inlines = [DiscoverdScopeInline]
     readonly_fields = ('created_at', 'updated_at')
 

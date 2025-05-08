@@ -8,6 +8,7 @@ class ProgramWatcher(BaseModel):
     platform_name = models.CharField(max_length=150 , blank=False , null=False)
     platform_url = models.URLField(blank=False , null=False)
     check_time = models.IntegerField(default=12)
+    logo = models.ImageField(upload_to='watchers/programwatcher/logo/' , blank = True , null = True)
     last_checked = models.DateTimeField(blank=True , null=True)
     STATUSES = [
         ('pending', 'Pending'),
@@ -16,7 +17,7 @@ class ProgramWatcher(BaseModel):
         ('fail', 'Faild'),    
         ('cancelled', 'Cancelled'),     
     ]
-
+    
     status = models.CharField(max_length=150, choices=STATUSES, default='pending') 
     notify = models.BooleanField(default=False)
 
@@ -32,19 +33,23 @@ class ProgramWatcher(BaseModel):
 
 class DiscoverdProgram(BaseModel):
     watcher = models.ForeignKey(ProgramWatcher , on_delete=models.PROTECT)
-    name = models.CharField(max_length=150 , )
+    name = models.CharField(max_length=150 , unique=True)
     url = models.URLField()
-    max_payout = models.DecimalField(max_digits=12 , decimal_places=2 , default=0.00)
-    min_payout = models.DecimalField(max_digits=12 , decimal_places=2 , default=0.00)
-    discovered_at = models.DateTimeField()
+    TYPES = [
+        ('vdp' , 'VDP'),
+        ('rdp' , 'RDP'),
+        ('others', 'OTHERS')
+    ]
+    type = models.CharField(max_length=100 , choices=TYPES , blank=False , null=False)
+    discovered_at = models.DateTimeField(auto_now=True)
     is_new = models.BooleanField(default=True)
 
     def __str__(self):
         return f"{self.watcher} : {self.name} -> {self.is_new}"
     
     class Meta:
-        verbose_name = 'Program Watcher'
-        verbose_name_plural = 'Program Watchers'
+        verbose_name = 'Discoverd Program'
+        verbose_name_plural = 'Discoverd Programs'
 
 
 

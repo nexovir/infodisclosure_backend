@@ -32,10 +32,10 @@ class Tool(BaseModel):
     category = models.ForeignKey(ToolCategory, on_delete=models.SET_NULL, null=True, blank=True, related_name='tools')
     slug = models.SlugField(unique=True )
 
-    upload_file = models.FileField(upload_to='tools/files/', blank=True, null=True)
+    upload_file = models.FileField(upload_to='tools/Tool/files/', blank=True, null=True)
 
     preview_text = models.TextField(blank=False , null=False)
-    demo_video_file = models.FileField(upload_to='tools/demo/videos/', blank=True, null=True)
+    demo_video_file = models.FileField(upload_to='tools/Tool/demo/videos/', blank=True, null=True)
     demo_video_url = models.URLField(blank=True, null=True)
 
     github_repo_url = models.URLField(blank=False, null=False)
@@ -62,7 +62,7 @@ class Tool(BaseModel):
 
 class ToolImage(BaseModel):
     tool = models.ForeignKey(Tool, on_delete=models.CASCADE, related_name='images')
-    image = models.ImageField(upload_to='tools/images/' , blank=True , null=False)
+    image = models.ImageField(upload_to='tool/ToolImage/images/' , blank=True , null=False)
 
     def __str__(self):
         return f"Image for {self.tool.title}"
