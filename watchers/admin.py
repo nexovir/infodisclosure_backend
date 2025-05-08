@@ -59,8 +59,8 @@ class ProgramWatcherAdmin(admin.ModelAdmin):
 
 @admin.register(DiscoverdProgram)
 class DiscoverdProgramAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'url', 'type', 'watcher__platform_name','lable', 'discovered_at')
-    list_filter = ('lable', 'type')
+    list_display = ('name', 'url', 'type', 'watcher__platform_name','label', 'discovered_at')
+    list_filter = ('label', 'type')
     search_fields = ('name', 'url')
     ordering = ('-discovered_at',)
     list_per_page = 20

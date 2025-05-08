@@ -45,23 +45,28 @@ def request(url: str, retries: int = 20, delay: int = 5) -> dict:
 
 
 
-def delete_lable (platform):
-    pass
+def delete_label (watcherprogram):
+    DiscoverdProgram.objects.filter(watcher = watcherprogram).update(label = "available")
 
 
 def get_bugcrowd_programs(data , watcherprogram):
+
     try : 
         for program in data :
-            DiscoverdProgram.objects.update_or_create(
+            obj, created = DiscoverdProgram.objects.update_or_create(
                 name=program.get("name", ""),
                 defaults={
                     "watcher": watcherprogram,
                     "url": program.get("url", ""),
-                    "type": "VDP" if program.get("allows_disclosure") is True else "RDP" if program.get("allows_disclosure") is False else "others",
-                    "lable" : "NEW"
+                    "type": "vdp" if program.get("allows_disclosure") is True else "rdp" if program.get("allows_disclosure") is False else "others",
                 }
-            )
+            )            
+            if created:
+                obj.label = "new"
+                obj.save()
+
         sendmessage ('Bugcrowd Data Inserting Successfully' , colour='GREEN')
+        
     except Exception as e :
         sendmessage (f'Erorr as {e}' , colour='RED')
 
@@ -81,6 +86,7 @@ def check_programs():
             data = request(program.platform_url)
             
             if program.platform_name == 'Bugcrowd':
+                delete_label(program)
                 get_bugcrowd_programs(data , program)
 
             if program.platform_name == 'Hackerone':
