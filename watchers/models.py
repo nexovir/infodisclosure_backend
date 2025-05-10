@@ -14,8 +14,7 @@ class ProgramWatcher(BaseModel):
         ('pending', 'Pending'),
         ('running' , 'Running'),    
         ('completed', 'Completed'),  
-        ('fail', 'Faild'),    
-        ('cancelled', 'Cancelled'),     
+        ('faild', 'Faild'),    
     ]
     
     status = models.CharField(max_length=150, choices=STATUSES, default='pending') 
@@ -33,7 +32,7 @@ class ProgramWatcher(BaseModel):
 
 class DiscoverdProgram(BaseModel):
     watcher = models.ForeignKey(ProgramWatcher , on_delete=models.PROTECT)
-    name = models.CharField(max_length=150 , unique=True)
+    name = models.CharField(max_length=200 , unique=True)
     url = models.URLField()
     TYPES = [
         ('vdp' , 'VDP'),
@@ -62,12 +61,11 @@ class DiscoverdProgram(BaseModel):
 
 
 
-
-
 class DiscoverdScope (BaseModel):
     discovered_program = models.ForeignKey(DiscoverdProgram , on_delete=models.CASCADE , )
-    name = models.CharField(max_length=150)
-    SCOPE_TYPES = [
+    name = models.CharField(max_length=500)
+    SCOPE_TEC_TYPES = [
+        ("ai_model" , "AI Model"),
         ("web", "Web Application"),
         ("wildcard", "Wildcard Domain (*.example.com)"),
         ("mobile", "Mobile Application (iOS / Android)"),
@@ -77,14 +75,27 @@ class DiscoverdScope (BaseModel):
         ("iot", "IoT / Hardware Device"),
         ("cloud", "Cloud Infrastructure (AWS, GCP, etc.)"),
         ("code", "Source Code / Repository"),
-        ("infrastructure", "External Infrastructure (IP / DNS / Mail Servers)"),
+        ("infrastructure", "External Infrastructure (CIDR / DNS / Mail Servers)"),
         ("physical", "Physical Security"),
         ("third_party", "Third-Party Hosted Apps"),
         ("others" , "Others")
     ]
+    SCOPE_TYPES = [
+        ('in_scope' , 'In Scope'),
+        ('out_of_scope' , 'Out Of Scope')
+    ]
+    LABEL = [
+        ('new', 'NEW'),
+        ('available' , 'AVAILABLE')
+    ]
+    label = models.CharField(
+        max_length=100,
+        choices=LABEL,     
+        default="available"
+    )
+    type = models.CharField(max_length=150 , choices=SCOPE_TEC_TYPES)
+    scope_type = models.CharField(max_length=100 , choices=SCOPE_TYPES , blank=True , null=True)
 
-    type = models.CharField(max_length=150 , choices=SCOPE_TYPES)
-    in_scope = models.BooleanField(default=True)
 
 
 

@@ -35,6 +35,7 @@ AUTHENTICATION_BACKENDS = (
 )
 
 
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000000  # یا هر عددی که نیاز داری
 
 # Application definition
 
