@@ -54,7 +54,8 @@ INSTALLED_APPS = [
     'writeups',
     'techniques',
     'zerodays',
-    'watchers',
+    'public_watchers',
+    'private_watchers',
     
         
 ]
@@ -110,7 +111,7 @@ WSGI_APPLICATION = 'infodisclosure_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'infodisclosure_backend_db',
+        'NAME': 'infodisclosure_backend',
         'USER': 'nexovir',
         'PASSWORD': '132@Nexovir@132!',
         'HOST': 'localhost',
