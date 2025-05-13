@@ -117,3 +117,780 @@ verification was successfully done -> 12/05/2025, 09:09:59
 Starting DNSBruteforce at google.com -> 12/05/2025, 09:09:59
 Checking For uber.com Arecord ... -> 12/05/2025, 09:09:59
 verification faild -> 12/05/2025, 09:09:59
+error in process for discover new subs: proccess_dns_bruteforce() takes 1 positional argument but 2 were given -> 13/05/2025, 04:50:18
+error in process for discover new subs: 'QuerySet' object has no attribute 'wildcard' -> 13/05/2025, 04:55:50
+error in process for discover new subs: 'QuerySet' object has no attribute 'user' -> 13/05/2025, 04:56:51
+error in process for discover new subs: 'QuerySet' object has no attribute 'user' -> 13/05/2025, 04:56:51
+error in process for discover new subs: 'QuerySet' object has no attribute 'user' -> 13/05/2025, 04:57:52
+error in process for discover new subs: 'RelatedManager' object has no attribute 'tools' -> 13/05/2025, 05:00:26
+error in process for discover new subs: 'AssetWatcher' object has no attribute 'tools' -> 13/05/2025, 05:01:34
+Checking For google.com Arecord ... -> 13/05/2025, 05:07:05
+verification was successfully done -> 13/05/2025, 05:07:05
+Checking For uber.com Arecord ... -> 13/05/2025, 05:07:05
+verification faild -> 13/05/2025, 05:07:05
+Checking For google.com Arecord ... -> 13/05/2025, 05:11:26
+verification was successfully done -> 13/05/2025, 05:11:27
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:11:27
+Checking For uber.com Arecord ... -> 13/05/2025, 05:11:27
+verification faild -> 13/05/2025, 05:11:27
+Checking For google.com Arecord ... -> 13/05/2025, 05:13:19
+verification was successfully done -> 13/05/2025, 05:13:19
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:13:19
+Checking For uber.com Arecord ... -> 13/05/2025, 05:13:19
+verification faild -> 13/05/2025, 05:13:19
+Checking For google.com Arecord ... -> 13/05/2025, 05:13:20
+verification was successfully done -> 13/05/2025, 05:13:20
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:13:20
+Checking For uber.com Arecord ... -> 13/05/2025, 05:13:20
+verification faild -> 13/05/2025, 05:13:20
+Checking For google.com Arecord ... -> 13/05/2025, 05:15:18
+verification was successfully done -> 13/05/2025, 05:15:18
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:15:18
+Checking For uber.com Arecord ... -> 13/05/2025, 05:15:18
+verification faild -> 13/05/2025, 05:15:18
+Checking For uber.com Arecord ... -> 13/05/2025, 05:31:53
+verification faild -> 13/05/2025, 05:31:53
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:31:53
+verification was successfully done -> 13/05/2025, 05:31:57
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:31:57
+Checking For google.com Arecord ... -> 13/05/2025, 05:31:57
+verification was successfully done -> 13/05/2025, 05:31:57
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:31:57
+Checking For uber.com Arecord ... -> 13/05/2025, 05:32:12
+verification faild -> 13/05/2025, 05:32:12
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:32:12
+verification was successfully done -> 13/05/2025, 05:32:12
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:32:12
+Checking For google.com Arecord ... -> 13/05/2025, 05:32:12
+verification was successfully done -> 13/05/2025, 05:32:13
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:32:13
+Checking For uber.com Arecord ... -> 13/05/2025, 05:33:53
+verification faild -> 13/05/2025, 05:33:54
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:33:54
+Checking For uber.com Arecord ... -> 13/05/2025, 05:33:56
+verification faild -> 13/05/2025, 05:33:57
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:33:57
+verification was successfully done -> 13/05/2025, 05:33:57
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:33:57
+Checking For google.com Arecord ... -> 13/05/2025, 05:33:57
+verification was successfully done -> 13/05/2025, 05:33:58
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:33:58
+verification was successfully done -> 13/05/2025, 05:33:58
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:33:58
+Checking For google.com Arecord ... -> 13/05/2025, 05:33:58
+verification was successfully done -> 13/05/2025, 05:33:58
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:33:58
+Checking For uber.com Arecord ... -> 13/05/2025, 05:33:59
+verification faild -> 13/05/2025, 05:34:00
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:34:00
+verification was successfully done -> 13/05/2025, 05:34:00
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:34:00
+Checking For google.com Arecord ... -> 13/05/2025, 05:34:00
+verification was successfully done -> 13/05/2025, 05:34:00
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:34:00
+Checking For uber.com Arecord ... -> 13/05/2025, 05:34:02
+verification faild -> 13/05/2025, 05:34:03
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:34:03
+verification was successfully done -> 13/05/2025, 05:34:03
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:34:03
+Checking For google.com Arecord ... -> 13/05/2025, 05:34:03
+verification was successfully done -> 13/05/2025, 05:34:03
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:34:03
+Checking For uber.com Arecord ... -> 13/05/2025, 05:34:05
+verification was successfully done -> 13/05/2025, 05:34:06
+Starting DNSBruteforce at uber.com -> 13/05/2025, 05:34:06
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:34:06
+verification was successfully done -> 13/05/2025, 05:34:06
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:34:06
+Checking For google.com Arecord ... -> 13/05/2025, 05:34:06
+verification was successfully done -> 13/05/2025, 05:34:06
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:34:06
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+verification faild -> 13/05/2025, 05:35:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:45
+verification was successfully done -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:49
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+verification was successfully done -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:50
+verification faild -> 13/05/2025, 05:35:50
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:50
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+verification faild -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+verification faild -> 13/05/2025, 05:35:51
+verification faild -> 13/05/2025, 05:35:51
+verification faild -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+verification faild -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+verification faild -> 13/05/2025, 05:35:51
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:51
+verification was successfully done -> 13/05/2025, 05:35:51
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+verification faild -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+verification was successfully done -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:52
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:52
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:35:53
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+Checking For uber.com Arecord ... -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+verification faild -> 13/05/2025, 05:35:53
+Checking For google.com Arecord ... -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+verification was successfully done -> 13/05/2025, 05:35:53
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:35:53
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:37:32
+verification was successfully done -> 13/05/2025, 05:37:37
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:37:37
+Checking For uber.com Arecord ... -> 13/05/2025, 05:37:37
+verification faild -> 13/05/2025, 05:37:37
+Checking For google.com Arecord ... -> 13/05/2025, 05:37:37
+verification was successfully done -> 13/05/2025, 05:37:37
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:37:37
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:38:37
+verification was successfully done -> 13/05/2025, 05:38:41
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:38:41
+Checking For uber.com Arecord ... -> 13/05/2025, 05:38:41
+verification faild -> 13/05/2025, 05:38:41
+Checking For google.com Arecord ... -> 13/05/2025, 05:38:41
+verification was successfully done -> 13/05/2025, 05:38:42
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:38:42
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:43:27
+verification was successfully done -> 13/05/2025, 05:43:31
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:43:31
+Checking For uber.com Arecord ... -> 13/05/2025, 05:43:31
+verification faild -> 13/05/2025, 05:43:31
+Checking For google.com Arecord ... -> 13/05/2025, 05:43:31
+verification was successfully done -> 13/05/2025, 05:43:32
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:43:32
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:44:16
+verification was successfully done -> 13/05/2025, 05:44:21
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:44:21
+Checking For uber.com Arecord ... -> 13/05/2025, 05:44:21
+verification faild -> 13/05/2025, 05:44:21
+Checking For google.com Arecord ... -> 13/05/2025, 05:44:21
+verification was successfully done -> 13/05/2025, 05:44:21
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:44:21
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:44:44
+verification was successfully done -> 13/05/2025, 05:44:44
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:44:44
+Checking For uber.com Arecord ... -> 13/05/2025, 05:44:45
+verification faild -> 13/05/2025, 05:44:45
+Checking For google.com Arecord ... -> 13/05/2025, 05:44:45
+verification was successfully done -> 13/05/2025, 05:44:45
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:44:45
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:45:25
+verification was successfully done -> 13/05/2025, 05:45:29
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:45:29
+Checking For uber.com Arecord ... -> 13/05/2025, 05:45:29
+verification faild -> 13/05/2025, 05:45:29
+Checking For google.com Arecord ... -> 13/05/2025, 05:45:29
+verification was successfully done -> 13/05/2025, 05:45:30
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:45:30
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:45:46
+verification was successfully done -> 13/05/2025, 05:45:47
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:45:47
+Checking For uber.com Arecord ... -> 13/05/2025, 05:45:48
+verification faild -> 13/05/2025, 05:45:48
+Checking For google.com Arecord ... -> 13/05/2025, 05:45:48
+verification was successfully done -> 13/05/2025, 05:45:48
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:45:48
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:55:25
+verification was successfully done -> 13/05/2025, 05:55:30
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:55:30
+Checking For uber.com Arecord ... -> 13/05/2025, 05:55:30
+verification faild -> 13/05/2025, 05:55:30
+Checking For google.com Arecord ... -> 13/05/2025, 05:55:30
+verification was successfully done -> 13/05/2025, 05:55:30
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:55:30
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:56:37
+verification was successfully done -> 13/05/2025, 05:56:42
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:56:42
+Checking For uber.com Arecord ... -> 13/05/2025, 05:56:42
+verification faild -> 13/05/2025, 05:56:42
+Checking For google.com Arecord ... -> 13/05/2025, 05:56:42
+verification was successfully done -> 13/05/2025, 05:56:42
+Starting DNSBruteforce at google.com -> 13/05/2025, 05:56:42
+Checking For icollab.info Arecord ... -> 13/05/2025, 05:59:14
+verification was successfully done -> 13/05/2025, 05:59:15
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 05:59:15
+Checking For icollab.info Arecord ... -> 13/05/2025, 06:54:22
+verification was successfully done -> 13/05/2025, 06:54:26
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 06:54:26
+Checking For uber.com Arecord ... -> 13/05/2025, 06:54:26
+verification faild -> 13/05/2025, 06:54:26
+Checking For google.com Arecord ... -> 13/05/2025, 06:54:27
+verification was successfully done -> 13/05/2025, 06:54:27
+Starting DNSBruteforce at google.com -> 13/05/2025, 06:54:27
+Checking For icollab.info Arecord ... -> 13/05/2025, 06:55:31
+verification was successfully done -> 13/05/2025, 06:55:35
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 06:55:35
+Checking For uber.com Arecord ... -> 13/05/2025, 06:55:35
+verification faild -> 13/05/2025, 06:55:35
+Checking For google.com Arecord ... -> 13/05/2025, 06:55:35
+verification was successfully done -> 13/05/2025, 06:55:35
+Starting DNSBruteforce at google.com -> 13/05/2025, 06:55:35
+Checking For icollab.info Arecord ... -> 13/05/2025, 07:35:29
+Error check a record Command '['dig', 'somedomaindosentexist.icollab.info', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 07:35:47
+Checking For uber.com Arecord ... -> 13/05/2025, 07:35:47
+Error check a record Command '['dig', 'somedomaindosentexist.uber.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 07:36:05
+Checking For google.com Arecord ... -> 13/05/2025, 07:36:05
+Error check a record Command '['dig', 'somedomaindosentexist.google.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 07:36:23
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 07:56:39
+Starting DNSBruteforce at uber.com -> 13/05/2025, 07:56:39
+Starting DNSBruteforce at google.com -> 13/05/2025, 07:56:39
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:02:39
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:02:39
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:02:39
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:04:52
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:04:52
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:04:52
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:07:36
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:07:36
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:07:37
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:07:37
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 08:07:37
+    [info] 0 subs for uber.com discovered -> 13/05/2025, 08:07:37
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:07:37
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:07:37
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:07:37
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:16:57
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:16:57
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:16:57
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:16:57
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 08:16:57
+    [info] 0 subs for uber.com discovered -> 13/05/2025, 08:16:57
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:16:57
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:16:57
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:16:57
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:19:27
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:19:27
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:19:27
+error in process for discover new subs: 'str' object has no attribute 'subdomain' -> 13/05/2025, 08:19:27
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:19:41
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:19:41
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:19:42
+error in process for discover new subs: 'str' object has no attribute 'subdomain' -> 13/05/2025, 08:19:42
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:22:11
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:22:11
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:22:11
+error in process for discover new subs: 'str' object has no attribute 'subdomain' -> 13/05/2025, 08:22:11
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:23:16
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:23:16
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:23:16
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:23:16
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 08:23:16
+    [info] 0 subs for uber.com discovered -> 13/05/2025, 08:23:16
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:23:16
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:23:16
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:23:16
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:24:07
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:24:07
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:24:08
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:24:08
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 08:24:08
+    [info] 0 subs for uber.com discovered -> 13/05/2025, 08:24:08
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:24:08
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:24:08
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:24:08
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:31:34
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:31:34
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:31:34
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:31:34
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 08:31:34
+    [info] 0 subs for uber.com discovered -> 13/05/2025, 08:31:34
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:31:34
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:31:34
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:31:34
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:42:46
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:42:46
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:42:47
+error in process for discover new subs: expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 08:42:47
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:43:22
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:43:22
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:43:22
+error in process for discover new subs: expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 08:43:22
+Starting DNSBruteforce at google.com -> 13/05/2025, 08:44:37
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 08:44:37
+    [info] 0 subs for google.com discovered -> 13/05/2025, 08:44:38
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 08:44:38
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 08:44:38
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 08:44:38
+    [info] 0 subs for icollab.info discovered -> 13/05/2025, 08:44:38
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 08:44:38
+Starting DNSBruteforce at uber.com -> 13/05/2025, 08:44:38
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 08:44:38
+    [info] 0 subs for uber.com discovered -> 13/05/2025, 08:44:38
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 08:44:38
+Starting DNSBruteforce at google.com -> 13/05/2025, 10:00:30
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 10:00:32
+    [info] 5790 subs for google.com discovered -> 13/05/2025, 10:00:44
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:00:44
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:00:44
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 10:00:44
+    [info] 7 subs for icollab.info discovered -> 13/05/2025, 10:01:05
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:01:05
+Starting DNSBruteforce at uber.com -> 13/05/2025, 10:01:05
+Starting Subfinder for 'uber.com' Please Wait ... -> 13/05/2025, 10:01:06
+    [info] 10098 subs for uber.com discovered -> 13/05/2025, 10:01:17
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:01:17
+Checking For google.com Arecord ... -> 13/05/2025, 10:04:22
+verification was successfully done -> 13/05/2025, 10:04:22
+Starting DNSBruteforce at google.com -> 13/05/2025, 10:04:22
+Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 10:04:22
+    [info] 5679 subs for google.com discovered -> 13/05/2025, 10:04:39
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:04:39
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:04:39
+verification was successfully done -> 13/05/2025, 10:04:44
+Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:04:44
+Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 10:04:44
+    [info] 7 subs for icollab.info discovered -> 13/05/2025, 10:05:04
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:05:04
+Checking For uber.com Arecord ... -> 13/05/2025, 10:05:04
+verification faild -> 13/05/2025, 10:05:05
+Checking For google.com Arecord ... -> 13/05/2025, 10:09:38
+verification was successfully done -> 13/05/2025, 10:09:39
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:09:39
+  [info] Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 10:09:39
+    [info] 692 subs for google.com discovered -> 13/05/2025, 10:10:00
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:00
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:10:00
+verification was successfully done -> 13/05/2025, 10:10:04
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:10:04
+  [info] Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 10:10:04
+    [info] 7 subs for icollab.info discovered -> 13/05/2025, 10:10:25
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:25
+Checking For uber.com Arecord ... -> 13/05/2025, 10:10:25
+verification faild -> 13/05/2025, 10:10:25
+Checking For google.com Arecord ... -> 13/05/2025, 10:10:45
+verification was successfully done -> 13/05/2025, 10:10:46
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:10:46
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:46
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:10:46
+Checking For google.com Arecord ... -> 13/05/2025, 10:10:48
+verification was successfully done -> 13/05/2025, 10:10:48
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:10:48
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:49
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:10:49
+verification was successfully done -> 13/05/2025, 10:10:50
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:10:50
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:50
+Checking For uber.com Arecord ... -> 13/05/2025, 10:10:50
+verification faild -> 13/05/2025, 10:10:50
+Checking For google.com Arecord ... -> 13/05/2025, 10:10:51
+verification was successfully done -> 13/05/2025, 10:10:51
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:10:51
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:52
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:10:52
+verification was successfully done -> 13/05/2025, 10:10:53
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:10:53
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:53
+Checking For uber.com Arecord ... -> 13/05/2025, 10:10:53
+verification was successfully done -> 13/05/2025, 10:10:53
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:10:53
+verification faild -> 13/05/2025, 10:10:53
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:53
+Checking For uber.com Arecord ... -> 13/05/2025, 10:10:53
+verification faild -> 13/05/2025, 10:10:53
+Checking For google.com Arecord ... -> 13/05/2025, 10:10:54
+verification was successfully done -> 13/05/2025, 10:10:54
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:10:54
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:55
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:10:55
+verification was successfully done -> 13/05/2025, 10:10:55
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:10:55
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:55
+Checking For uber.com Arecord ... -> 13/05/2025, 10:10:55
+verification faild -> 13/05/2025, 10:10:55
+Checking For google.com Arecord ... -> 13/05/2025, 10:10:57
+verification was successfully done -> 13/05/2025, 10:10:57
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:10:57
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:58
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:10:58
+verification was successfully done -> 13/05/2025, 10:10:58
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:10:58
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:10:58
+Checking For uber.com Arecord ... -> 13/05/2025, 10:10:58
+verification faild -> 13/05/2025, 10:10:58
+Checking For google.com Arecord ... -> 13/05/2025, 10:11:00
+verification was successfully done -> 13/05/2025, 10:11:00
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:11:00
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:01
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:11:01
+verification was successfully done -> 13/05/2025, 10:11:01
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:11:01
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:01
+Checking For uber.com Arecord ... -> 13/05/2025, 10:11:01
+verification faild -> 13/05/2025, 10:11:01
+Checking For google.com Arecord ... -> 13/05/2025, 10:11:03
+verification was successfully done -> 13/05/2025, 10:11:03
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:11:03
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:04
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:11:04
+verification was successfully done -> 13/05/2025, 10:11:04
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:11:04
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:04
+Checking For uber.com Arecord ... -> 13/05/2025, 10:11:04
+verification faild -> 13/05/2025, 10:11:04
+Checking For google.com Arecord ... -> 13/05/2025, 10:11:06
+verification was successfully done -> 13/05/2025, 10:11:06
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:11:06
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:07
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:11:07
+verification was successfully done -> 13/05/2025, 10:11:07
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:11:07
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:07
+Checking For uber.com Arecord ... -> 13/05/2025, 10:11:07
+verification faild -> 13/05/2025, 10:11:07
+Checking For google.com Arecord ... -> 13/05/2025, 10:11:09
+verification was successfully done -> 13/05/2025, 10:11:09
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:11:09
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:10
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:11:10
+verification was successfully done -> 13/05/2025, 10:11:10
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:11:10
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:11:10
+Checking For uber.com Arecord ... -> 13/05/2025, 10:11:10
+verification faild -> 13/05/2025, 10:11:10
+Checking For google.com Arecord ... -> 13/05/2025, 10:13:10
+verification was successfully done -> 13/05/2025, 10:13:10
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:13:10
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:13:10
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:13:10
+verification was successfully done -> 13/05/2025, 10:13:15
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:13:15
+Error expected str, bytes or os.PathLike object, not FieldFile -> 13/05/2025, 10:13:15
+Checking For uber.com Arecord ... -> 13/05/2025, 10:13:15
+verification faild -> 13/05/2025, 10:13:15
+Checking For google.com Arecord ... -> 13/05/2025, 10:14:38
+Checking For google.com Arecord ... -> 13/05/2025, 10:14:38
+verification was successfully done -> 13/05/2025, 10:14:38
+verification was successfully done -> 13/05/2025, 10:14:38
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:14:38
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:14:38
+Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:14:40
+Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:14:40
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:14:40
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:14:40
+verification was successfully done -> 13/05/2025, 10:14:45
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:14:45
+verification was successfully done -> 13/05/2025, 10:14:45
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:14:45
+Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:14:45
+Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:14:45
+Checking For uber.com Arecord ... -> 13/05/2025, 10:14:45
+Checking For uber.com Arecord ... -> 13/05/2025, 10:14:45
+verification faild -> 13/05/2025, 10:14:45
+verification faild -> 13/05/2025, 10:14:45
+Checking For google.com Arecord ... -> 13/05/2025, 10:42:39
+verification was successfully done -> 13/05/2025, 10:42:39
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:42:39
+Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:42:41
+error in process for discover new subs: 'AssetWatcher' object has no attribute 'subdomain' -> 13/05/2025, 10:42:41
+Checking For google.com Arecord ... -> 13/05/2025, 10:44:38
+verification was successfully done -> 13/05/2025, 10:44:38
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:44:38
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:44:40
+error in process for discover new subs: 'WatchedWildcard' object has no attribute 'subdomain' -> 13/05/2025, 10:44:40
+Checking For google.com Arecord ... -> 13/05/2025, 10:46:04
+verification was successfully done -> 13/05/2025, 10:46:04
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:46:04
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:46:06
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:46:06
+verification was successfully done -> 13/05/2025, 10:46:11
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:46:11
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:46:11
+Checking For uber.com Arecord ... -> 13/05/2025, 10:46:12
+verification faild -> 13/05/2025, 10:46:12
+Checking For google.com Arecord ... -> 13/05/2025, 10:48:08
+verification was successfully done -> 13/05/2025, 10:48:08
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:48:08
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:48:10
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:48:10
+verification was successfully done -> 13/05/2025, 10:48:15
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:48:15
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:48:16
+Checking For uber.com Arecord ... -> 13/05/2025, 10:48:16
+verification faild -> 13/05/2025, 10:48:16
+Checking For google.com Arecord ... -> 13/05/2025, 10:59:09
+verification was successfully done -> 13/05/2025, 10:59:10
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 10:59:10
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:59:12
+Starting Shuffledns for mamad ... -> 13/05/2025, 10:59:12
+Checking For icollab.info Arecord ... -> 13/05/2025, 10:59:12
+verification was successfully done -> 13/05/2025, 10:59:16
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 10:59:16
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 10:59:17
+Starting Shuffledns for nexovir ... -> 13/05/2025, 10:59:17
+Checking For uber.com Arecord ... -> 13/05/2025, 10:59:17
+verification faild -> 13/05/2025, 10:59:17
+Checking For google.com Arecord ... -> 13/05/2025, 11:05:57
+verification was successfully done -> 13/05/2025, 11:05:58
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 11:05:58
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:05:59
+Starting Shuffledns for mamad ... -> 13/05/2025, 11:06:00
+Checking For icollab.info Arecord ... -> 13/05/2025, 11:06:00
+verification was successfully done -> 13/05/2025, 11:06:04
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 11:06:04
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:06:05
+Starting Shuffledns for nexovir ... -> 13/05/2025, 11:06:05
+Checking For uber.com Arecord ... -> 13/05/2025, 11:06:05
+verification faild -> 13/05/2025, 11:06:05
+Checking For google.com Arecord ... -> 13/05/2025, 11:06:34
+verification was successfully done -> 13/05/2025, 11:06:34
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 11:06:34
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:06:36
+Starting Shuffledns for mamad ... -> 13/05/2025, 11:06:37
+Checking For icollab.info Arecord ... -> 13/05/2025, 11:06:37
+verification was successfully done -> 13/05/2025, 11:06:41
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 11:06:41
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:06:42
+Starting Shuffledns for nexovir ... -> 13/05/2025, 11:06:42
+Checking For uber.com Arecord ... -> 13/05/2025, 11:06:42
+verification faild -> 13/05/2025, 11:06:42
+Checking For google.com Arecord ... -> 13/05/2025, 11:08:28
+verification was successfully done -> 13/05/2025, 11:08:28
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 11:08:28
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:08:30
+Starting Shuffledns for mamad ... -> 13/05/2025, 11:08:30
+Checking For icollab.info Arecord ... -> 13/05/2025, 11:08:30
+verification was successfully done -> 13/05/2025, 11:08:35
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 11:08:35
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:08:35
+Starting Shuffledns for nexovir ... -> 13/05/2025, 11:08:35
+Checking For uber.com Arecord ... -> 13/05/2025, 11:08:36
+verification faild -> 13/05/2025, 11:08:36
+Checking For google.com Arecord ... -> 13/05/2025, 11:09:49
+verification was successfully done -> 13/05/2025, 11:09:49
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 11:09:49
+     Found 1916731 subdomains from private_watchers/wordlists/mamad/wordlist_no_underscores.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:09:51
+Starting Shuffledns for mamad ... -> 13/05/2025, 11:09:51
+Checking For icollab.info Arecord ... -> 13/05/2025, 11:09:51
+verification was successfully done -> 13/05/2025, 11:09:55
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 11:09:55
+     Found 408777 subdomains from private_watchers/wordlists/nexovir/file-wordlist.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 11:09:56
+Starting Shuffledns for nexovir ... -> 13/05/2025, 11:09:56
+Checking For uber.com Arecord ... -> 13/05/2025, 11:09:57
+verification faild -> 13/05/2025, 11:09:57

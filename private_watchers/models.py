@@ -1,6 +1,8 @@
 from django.db import models
 from users.models import BaseModel
 from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
+import os
 
 
 
@@ -14,23 +16,64 @@ STATUSES = [
 ]
 
 
-
 LABELS = [
         ('new', 'NEW'),
         ('available' , 'AVAILABLE')
     ]
 
 
+
+def validate_wordlist_file(file):
+    ext = os.path.splitext(file.name)[1]
+
+
+    max_size = 30 * 1024 * 1024 
+    if file.size > max_size:
+        raise ValidationError('File size must be under 30 MB.')
+    
+    if ext.lower() != '.txt':
+        raise ValidationError('Only .txt files are allowed.')
+
+
+
+def default_wordlist_path():
+    return 'private_watchers/wordlists/2m-subdomains.txt'
+
+
+
+def user_wordlist_upload_path(instance, filename):
+    username = instance.user.username if instance.user else 'anonymous'
+    ext = os.path.splitext(filename)[1]
+    return f"private_watchers/wordlists/{username}/{filename}"
+
+
+
 class AssetWatcher(BaseModel):
-    user = models.OneToOneField(User, on_delete=models.CASCADE , null=True , blank=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)
     notify = models.BooleanField(default=False)
+    status = models.CharField(max_length=150, choices=STATUSES, default='pending')
 
-
-    status = models.CharField(max_length=150, choices=STATUSES, default='pending') 
+    dns_bruteforce_wordlist = models.FileField(
+        upload_to=user_wordlist_upload_path,
+        validators=[validate_wordlist_file],
+        null=True,
+        blank=True,
+        default=default_wordlist_path,  
+    )
 
 
     def __str__(self):
         return f"{self.user.username}"
+
+    def save(self, *args, **kwargs):
+        try:
+            old = AssetWatcher.objects.get(pk=self.pk)
+            if old.dns_bruteforce_wordlist and old.dns_bruteforce_wordlist != self.dns_bruteforce_wordlist:
+                if os.path.isfile(old.dns_bruteforce_wordlist.path):
+                    os.remove(old.dns_bruteforce_wordlist.path)
+        except AssetWatcher.DoesNotExist:
+            pass
+        super().save(*args, **kwargs)
 
     class Meta:
         verbose_name = 'Asset Watcher'
@@ -77,7 +120,7 @@ class WatchedWildcard(BaseModel):
 
 
 class DiscoverSubdomain(BaseModel):
-    wildcard = models.ForeignKey(WatchedWildcard, on_delete=models.CASCADE, related_name='subdomain')
+    wildcard = models.ForeignKey(WatchedWildcard, on_delete=models.CASCADE, related_name='subdomains')
     subdomain = models.CharField(max_length=150, blank=True, null=True)
     tool = models.ForeignKey(Tool, on_delete=models.SET_NULL, null=True, blank=True)
 

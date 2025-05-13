@@ -7,3 +7,5 @@ class PrivateWatchersConfig(AppConfig):
 
     def ready(self):
         import private_watchers.signals
+        import private_watchers.signals
+

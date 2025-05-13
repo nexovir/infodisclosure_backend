@@ -9,16 +9,17 @@ class WatchedWildcardInline(admin.TabularInline):
 
 
 
-
 class JSFileWatchListInline(admin.TabularInline):
     model = JSFileWatchList
     extra = 0
     show_change_link = True
 
 
+
 class WatchedJSFileInline(admin.TabularInline):
     model = WatchedJSFile
     extra = 0
+
 
 
 class WatchedJSFileChangedInline(admin.TabularInline):
@@ -49,8 +50,12 @@ class AssetWatcherAdmin(admin.ModelAdmin):
 
 @admin.register(WatchedWildcard)
 class WatchedWildcardAdmin(admin.ModelAdmin):
-    list_display = ('id', 'watcher', 'wildcard', 'status' , 'updated_at')
+    list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
     search_fields = ('wildcard',)
+
+    def get_all_tools(self, obj):
+        return ", ".join([tool.tool_name for tool in obj.tools.all()])
+    get_all_tools.short_description = "Tools"
 
 
 
@@ -62,11 +67,13 @@ class DiscoverSubdomainAdmin(admin.ModelAdmin):
     list_filter = ('tool','wildcard__watcher__user__username' , 'label')
 
 
+
 @admin.register(SubdomainHttpx)
 class SubdomainHttpxAdmin(admin.ModelAdmin):
     list_display = ('id', 'discovered_subdomain', 'status_code', 'title', 'server', 'has_ssl', 'ip_address', 'port')
     list_filter = ('status_code', 'has_ssl', 'port')
     search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title')
+
 
 
 @admin.register(JSFileWatcher)
@@ -77,11 +84,13 @@ class JSFileWatcherAdmin(admin.ModelAdmin):
     inlines = [JSFileWatchListInline]
 
 
+
 @admin.register(JSFileWatchList)
 class JSFileWatchListAdmin(admin.ModelAdmin):
     list_display = ('id', 'jsfilewatcher', 'name')
     search_fields = ('name',)
     inlines = [WatchedJSFileInline]
+
 
 
 @admin.register(WatchedJSFile)
@@ -90,6 +99,7 @@ class WatchedJSFileAdmin(admin.ModelAdmin):
     search_fields = ('file_url',)
     list_filter = ('has_changed',)
     inlines = [WatchedJSFileChangedInline]
+
 
 
 @admin.register(WatchedJSFileChanged)

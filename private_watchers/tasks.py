@@ -23,17 +23,21 @@ def sendmessage (message : str , telegram : bool = False, colour : str = "YELLOW
 
 
 
+def subfinder(domain):
+    try:
+        # sendmessage(f"  [info] Starting Subfinder for '{domain}' Please Wait ...", telegram=True, logger=True)
+        # subs = os.popen(f"subfinder -d {domain} -silent -timeout 20 -max-time 20").read()
+        # new_subs = [sub.strip() for sub in subs.split('\n') if sub.strip()]
+        # sendmessage(f"    [info] {len(new_subs)} subs for {domain} discovered", colour='GREEN')
+        return [f'asss.{domain}' , f'www.{domain}' , f'mail.{domain}' , f'wqs.{domain}']
+    except Exception as e:
+        sendmessage(f"Error executing Subfinder on {domain}: {e}", colour='RED')
+        return []
+
+
+
 def proccess_subfinder(domains):
-    def subfinder(domain):
-        try:
-            sendmessage(f"Starting Subfinder for '{domain}' Please Wait ...", telegram=True, logger=True)
-            subs = os.popen(f"subfinder -d {domain} -silent -timeout 20 -max-time 20").read()
-            new_subs = [sub.strip() for sub in subs.split('\n') if sub.strip()]
-            sendmessage(f"    [info] {len(new_subs)} subs for {domain} discovered", colour='GREEN')
-            return new_subs
-        except Exception as e:
-            sendmessage(f"Error executing Subfinder on {domain}: {e}", colour='RED')
-            return []
+
 
     try:
         subfinder_tool = Tool.objects.get(tool_name='subfinder')
@@ -83,10 +87,9 @@ def proccess_subfinder(domains):
 
 
 
-def proccess_dns_bruteforce(domains):
+def proccess_dns_bruteforce(watcher_assets):
 
     def check_a_record(domain : str) -> bool:
-
         sendmessage (f"Checking For {domain} Arecord ...")
         full_domain = "somedomaindosentexist." + domain
         try:
@@ -142,48 +145,57 @@ def proccess_dns_bruteforce(domains):
 
 
 
-    def get_subdomains (domain : str):
-        subdomains = []
+    def get_subdomains(watcher_asset, watched_wildcard):
+        try :
+            subdomains = []
 
-        # WordList Discoverd from Domain
+            # WordList Discoverd from Domain
 
-        old_subs = set(DiscoverSubdomain.objects.filter(wildcard__wildcard=domain).values_list('subdomain', flat=True))
+            subfinder_subs = subfinder(watched_wildcard.wildcard)
+            for subfinder_sub in subfinder_subs:
+                if subfinder_sub:
+                    cleaned = subfinder_sub.replace(f'.{watched_wildcard.wildcard}', '')
+                    subdomains.append(cleaned)
+            
+            with open (f'private_watchers/wordlists/{watcher_asset.user.username}/dnsbruteforce_discoverd.txt' , 'w') as file:
+                for sub in subdomains :
+                    file.write(sub+'\n')
+            
 
-        for old_sub in old_subs :
-            subdomains.append(old_sub.replace(f'.{domain}',''))
+            # Wordlist Discoverd from StaticWordlist
+            with open (watcher_asset.dns_bruteforce_wordlist.path , 'r') as file :
+                for line in file :
+                    subdomains.append (line.strip())
 
-        with open ('private_watchers/wordlists/sub-subdomains.txt' , 'w') as file:
-            for sub in subdomains :
-                file.write(sub+'\n')
+            with open (f'private_watchers/wordlists/{watcher_asset.user.username}/dnsbruteforce_all.txt' , 'w') as file:
+                for sub in set(subdomains) :
+                    file.write(sub+'\n')
+            
+
+            sendmessage (f"     Found {len(set(subdomains))} subdomains from {watcher_asset.dns_bruteforce_wordlist} and dnsbruteforce_discoverd.txt" , telegram=False , colour="GREEN")
+            
+            return (set(subdomains))
         
-
-        # Wordlist Discoverd from StaticWordlist
-        
-        with open ('private_watchers/wordlists/2m-subdomains.subs' , 'r') as file :
-            for line in file :
-                subdomains.append (line.strip())
-
-        # with open ('outputs/all-subdomains.txt' , 'w') as file:
-        #     for sub in set(subdomains) :
-        #         file.write(sub+'\n')
-        
-        # sendmessage (color.WHITE + f"Found {color.RED}{len(set(subdomains))}{color_reset} {color.WHITE}subdomains from {color.YELLOW}subs.subs and 2m-subdomains.subs{color_reset}" , telegram=False , colour="GREEN")
-        
-        # return (set(subdomains))
-    
+        except Exception as e :
+            sendmessage(f'Error {e}' ,colour='RED')
 
 
 
-    for domain in domains :
-        if (check_a_record(domain)):
-            sendmessage(f"Starting DNSBruteforce at {domain}" , telegram=True)
-            print(domain)
-            subdomains = get_subdomains (domain)
-            # for subdomain in subdomains :
-            #     print(subdomain)
-            # sendmessage (f'Starting Shuffledns on Discoverd Subs & Static Wordlist ...')
-            # resolve1 = os.popen("shuffledns -d "+ domain +" -w outputs/all-subdomains.txt  -r outputs/resolvers.txt -o outputs/shuffle_out.txt -silent").read()
-            # resolve1 = resolve1.split('\n')
+    for watcher_asset in watcher_assets:
+        for watched_wildcard in watcher_asset.wildcards.all():
+            if watched_wildcard.tools.filter(tool_name='dns_bruteforce'):
+                if (check_a_record(watched_wildcard.wildcard)):
+
+                    sendmessage(f"[info] Starting DNSBruteforce at {watched_wildcard.wildcard}" , telegram=True)
+
+                    subdomains = get_subdomains (watcher_asset , watched_wildcard)
+
+                    sendmessage (f'Starting Shuffledns for {watcher_asset} ...')
+                    command = "shuffledns -d " + watched_wildcard.wildcard + f" -w private_watchers/wordlists/{watcher_asset.user.username}/dnsbruteforce_all.txt  -r private_watchers/outputs/resolvers.txt -o private_watchers/outputs/shuffle_out.txt -silent"
+                    print(command)
+                    resolve1 = os.popen(command).read()
+
+                    resolve1 = resolve1.split('\n')
 
             # sendmessage (f'Starting DnsGen ...')
             # create_dnsgen_subs (resolve1 , domain)
@@ -269,7 +281,7 @@ def check_assets():
 
     try:
         # proccess_subfinder(subfinder_domains)
-        proccess_dns_bruteforce (dns_bruteforce_domains , watcher_assets)
+        proccess_dns_bruteforce (watcher_assets)
 
 
     except Exception as e:
