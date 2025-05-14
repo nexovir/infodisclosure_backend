@@ -52,7 +52,7 @@ class AssetWatcherAdmin(admin.ModelAdmin):
 class WatchedWildcardAdmin(admin.ModelAdmin):
     list_display = ('id', 'watcher', 'wildcard', 'status' ,'get_all_tools', 'updated_at')
     search_fields = ('wildcard',)
-
+    list_filter = ['watcher' , 'status' , 'tools']
     def get_all_tools(self, obj):
         return ", ".join([tool.tool_name for tool in obj.tools.all()])
     get_all_tools.short_description = "Tools"
@@ -70,10 +70,10 @@ class DiscoverSubdomainAdmin(admin.ModelAdmin):
 
 @admin.register(SubdomainHttpx)
 class SubdomainHttpxAdmin(admin.ModelAdmin):
-    list_display = ('id', 'discovered_subdomain', 'status_code', 'title', 'server', 'has_ssl', 'ip_address', 'port')
-    list_filter = ('status_code', 'has_ssl', 'port')
+    list_display = ('id', 'discovered_subdomain','label', 'status_code', 'title', 'server', 'has_ssl', 'ip_address', 'port')
+    list_filter = ('status_code', 'has_ssl', 'port' , 'label')
     search_fields = ('discovered_subdomain__subdomain', 'ip_address', 'title')
-
+    ordering = ['created_at', 'updated_at' , 'label']
 
 
 @admin.register(JSFileWatcher)

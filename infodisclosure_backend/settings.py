@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'zerodays',
     'public_watchers',
     'private_watchers',
+    'rating',
     
         
 ]

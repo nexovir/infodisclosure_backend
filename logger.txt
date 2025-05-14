@@ -1299,3 +1299,186 @@ DNS A record check error: 'AssetWatcher' object has no attribute 'update' -> 13/
 [info] A record verification failed for uber.com -> 13/05/2025, 18:47:18
 [info] A record verification failed for icollab.info -> 13/05/2025, 18:47:25
 [info] Starting Subfinder for 'voorivex.academy'... -> 14/05/2025, 05:18:49
+[info] Starting Subfinder for 'icollab.info'... -> 14/05/2025, 13:53:26
+[info] 7 subs found for icollab.info -> 14/05/2025, 13:53:47
+[info] Starting Subfinder for 'google.com'... -> 14/05/2025, 13:53:47
+[info] 384 subs found for google.com -> 14/05/2025, 13:54:03
+[info] Starting Subfinder for 'uber.com'... -> 14/05/2025, 13:54:08
+[info] 282 subs found for uber.com -> 14/05/2025, 13:54:34
+[error] Subdomain discovery failed: create_forward_many_to_many_manager.<locals>.ManyRelatedManager.__call__() missing 1 required keyword-only argument: 'manager' -> 14/05/2025, 13:58:31
+[error] Subdomain discovery failed: too many values to unpack (expected 2) -> 14/05/2025, 14:06:00
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx'... -> 14/05/2025, 14:36:40
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:36:40
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx'... -> 14/05/2025, 14:36:40
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:36:41
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx'... -> 14/05/2025, 14:36:41
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:36:41
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:38:35
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:38:35
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:38:35
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:38:35
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:38:35
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:38:36
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:39:29
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:39:29
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:39:29
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:39:29
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:39:29
+HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-json', '-title', '-status-code', '-ip', '-cname', '-tls-grab', '-server', '-tech-detect', '-content-type', '-web-server-time', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 2. -> 14/05/2025, 14:39:29
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:41:19
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:41:34
+[error] Subdomain discovery failed: ["“{'host': 'ae.uber.com', 'port': '443', 'probe_status': True, 'tls_version': 'tls13', 'cipher': 'TLS_AES_128_GCM_SHA256', 'not_before': '2025-04-22T00:00:00Z', 'not_after': '2026-04-14T23:59:59Z', 'subject_dn': 'CN=*.uber.com, O=Uber Technologies\\\\, Inc., L=San Francisco, ST=California, C=US', 'subject_cn': '*.uber.com', 'subject_org': ['Uber Technologies, Inc.'], 'subject_an': ['*.uber.com', 'uber.com'], 'serial': '0E:27:6F:97:1A:27:1B:40:EE:22:CA:A4:49:71:ED:FF', 'issuer_dn': 'CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US', 'issuer_cn': 'DigiCert TLS RSA SHA256 2020 CA1', 'issuer_org': ['DigiCert Inc'], 'fingerprint_hash': {'md5': '2f23a3d5bdc56a3081027ecb7f4b8541', 'sha1': 'd779ef29b1cd600f81802933ca463d0a11e833ac', 'sha256': '7e7ae1f1f3106e69a820ef00763d4ac29a0b9211ec355179ccf8602c42f94655'}, 'wildcard_certificate': True, 'tls_connection': 'ctls', 'sni': 'ae.uber.com'}” value must be either True or False."] -> 14/05/2025, 14:42:05
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:45:55
+[error] Subdomain discovery failed: name 'devnull' is not defined -> 14/05/2025, 14:45:55
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:46:29
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:46:41
+[error] Subdomain discovery failed: ["“{'host': 'auth.uber.com', 'port': '443', 'probe_status': True, 'tls_version': 'tls13', 'cipher': 'TLS_AES_128_GCM_SHA256', 'not_before': '2025-04-22T00:00:00Z', 'not_after': '2026-04-14T23:59:59Z', 'subject_dn': 'CN=*.uber.com, O=Uber Technologies\\\\, Inc., L=San Francisco, ST=California, C=US', 'subject_cn': '*.uber.com', 'subject_org': ['Uber Technologies, Inc.'], 'subject_an': ['*.uber.com', 'uber.com'], 'serial': '0E:27:6F:97:1A:27:1B:40:EE:22:CA:A4:49:71:ED:FF', 'issuer_dn': 'CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US', 'issuer_cn': 'DigiCert TLS RSA SHA256 2020 CA1', 'issuer_org': ['DigiCert Inc'], 'fingerprint_hash': {'md5': '2f23a3d5bdc56a3081027ecb7f4b8541', 'sha1': 'd779ef29b1cd600f81802933ca463d0a11e833ac', 'sha256': '7e7ae1f1f3106e69a820ef00763d4ac29a0b9211ec355179ccf8602c42f94655'}, 'wildcard_certificate': True, 'tls_connection': 'ctls', 'sni': 'auth.uber.com'}” value must be either True or False."] -> 14/05/2025, 14:47:18
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:52:31
+[info] Starting Parsing Data ... -> 14/05/2025, 14:52:44
+Starting Save Httpx Results -> 14/05/2025, 14:52:44
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:52:44
+[info] Starting Parsing Data ... -> 14/05/2025, 14:53:22
+Starting Save Httpx Results -> 14/05/2025, 14:53:22
+[error] Subdomain discovery failed: ["“{'host': 'account.uber.com', 'port': '443', 'probe_status': True, 'tls_version': 'tls13', 'cipher': 'TLS_AES_128_GCM_SHA256', 'not_before': '2025-04-22T00:00:00Z', 'not_after': '2026-04-14T23:59:59Z', 'subject_dn': 'CN=*.uber.com, O=Uber Technologies\\\\, Inc., L=San Francisco, ST=California, C=US', 'subject_cn': '*.uber.com', 'subject_org': ['Uber Technologies, Inc.'], 'subject_an': ['*.uber.com', 'uber.com'], 'serial': '0E:27:6F:97:1A:27:1B:40:EE:22:CA:A4:49:71:ED:FF', 'issuer_dn': 'CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US', 'issuer_cn': 'DigiCert TLS RSA SHA256 2020 CA1', 'issuer_org': ['DigiCert Inc'], 'fingerprint_hash': {'md5': '2f23a3d5bdc56a3081027ecb7f4b8541', 'sha1': 'd779ef29b1cd600f81802933ca463d0a11e833ac', 'sha256': '7e7ae1f1f3106e69a820ef00763d4ac29a0b9211ec355179ccf8602c42f94655'}, 'wildcard_certificate': True, 'tls_connection': 'ctls', 'sni': 'account.uber.com'}” value must be either True or False."] -> 14/05/2025, 14:53:22
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:54:25
+[info] Starting Parsing Data ... -> 14/05/2025, 14:54:40
+[info] Starting Save Httpx Results -> 14/05/2025, 14:54:40
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:54:40
+[info] Starting Parsing Data ... -> 14/05/2025, 14:55:17
+[info] Starting Save Httpx Results -> 14/05/2025, 14:55:17
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:55:18
+[info] Starting Parsing Data ... -> 14/05/2025, 14:55:31
+[info] Starting Save Httpx Results -> 14/05/2025, 14:55:31
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 14:59:58
+[info] Starting Parsing Data ... -> 14/05/2025, 15:00:13
+[info] Starting Save Httpx Results -> 14/05/2025, 15:00:13
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:00:13
+[info] Starting Parsing Data ... -> 14/05/2025, 15:00:49
+[info] Starting Save Httpx Results -> 14/05/2025, 15:00:49
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:00:50
+[info] Starting Parsing Data ... -> 14/05/2025, 15:01:04
+[info] Starting Save Httpx Results -> 14/05/2025, 15:01:04
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:03:36
+[info] Starting Parsing Data ... -> 14/05/2025, 15:03:49
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:03:49
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-tech-detect', '-web-server', '-ip', '-cname', '-cdn', '-location', '-content-length', '-tls-probe', '-method', '-path', '-probe', '-no-color', '-json', '-silent', '-threads', '50', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 1. -> 14/05/2025, 15:04:08
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:04:08
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:45:27
+[info] Starting Parsing Data ... -> 14/05/2025, 15:45:43
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:45:43
+[info] Starting Parsing Data ... -> 14/05/2025, 15:46:25
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:46:25
+[info] Starting Parsing Data ... -> 14/05/2025, 15:46:39
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:49:17
+[info] Starting Parsing Data ... -> 14/05/2025, 15:49:34
+[info] Starting Save Httpx Results -> 14/05/2025, 15:49:34
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:49:34
+[info] Starting Parsing Data ... -> 14/05/2025, 15:50:15
+[info] Starting Save Httpx Results -> 14/05/2025, 15:50:15
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 15:50:16
+[info] Starting Parsing Data ... -> 14/05/2025, 15:50:33
+[info] Starting Save Httpx Results -> 14/05/2025, 15:50:33
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:01:20
+[info] Starting Parsing Data ... -> 14/05/2025, 16:01:37
+[info] Starting Save Httpx Results -> 14/05/2025, 16:01:37
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:01:37
+[info] Starting Parsing Data ... -> 14/05/2025, 16:02:19
+[info] Starting Save Httpx Results -> 14/05/2025, 16:02:19
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:02:20
+[info] Starting Parsing Data ... -> 14/05/2025, 16:02:36
+[info] Starting Save Httpx Results -> 14/05/2025, 16:02:36
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:06:10
+[info] Starting Parsing Data ... -> 14/05/2025, 16:06:26
+[info] Starting Save Httpx Results -> 14/05/2025, 16:06:26
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:06:26
+[info] Starting Parsing Data ... -> 14/05/2025, 16:07:01
+[info] Starting Save Httpx Results -> 14/05/2025, 16:07:01
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:07:02
+[info] Starting Parsing Data ... -> 14/05/2025, 16:07:16
+[info] Starting Save Httpx Results -> 14/05/2025, 16:07:16
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:11:25
+[info] Starting Parsing Data ... -> 14/05/2025, 16:11:38
+[info] Starting Save Httpx Results -> 14/05/2025, 16:11:38
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:11:38
+[info] Starting Parsing Data ... -> 14/05/2025, 16:11:53
+[info] Starting Save Httpx Results -> 14/05/2025, 16:11:53
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:11:53
+[info] Starting Parsing Data ... -> 14/05/2025, 16:11:55
+[info] Starting Save Httpx Results -> 14/05/2025, 16:11:55
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:11:55
+[info] Starting Parsing Data ... -> 14/05/2025, 16:11:56
+[info] Starting Save Httpx Results -> 14/05/2025, 16:11:56
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:11:56
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-tech-detect', '-web-server', '-ip', '-cname', '-cdn', '-location', '-content-length', '-tls-probe', '-method', '-path', '-probe', '-no-color', '-json', '-silent', '-threads', '50', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 1. -> 14/05/2025, 16:12:11
+[info] Starting Subfinder for 'memoryleaks.info'... -> 14/05/2025, 16:12:17
+[info] 2 subs found for memoryleaks.info -> 14/05/2025, 16:12:34
+[info] Starting Subfinder for 'voorivex.academy'... -> 14/05/2025, 16:12:34
+[info] 5 subs found for voorivex.academy -> 14/05/2025, 16:12:53
+[info] Starting Subfinder for 'icollab.info'... -> 14/05/2025, 16:12:53
+[info] 7 subs found for icollab.info -> 14/05/2025, 16:13:14
+[info] Starting Subfinder for 'google.com'... -> 14/05/2025, 16:13:14
+[info] 5445 subs found for google.com -> 14/05/2025, 16:13:31
+[info] Starting Subfinder for 'uber.com'... -> 14/05/2025, 16:14:30
+[info] 282 subs found for uber.com -> 14/05/2025, 16:14:47
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:14:48
+[info] Starting Parsing Data ... -> 14/05/2025, 16:15:04
+[info] Starting Save Httpx Results -> 14/05/2025, 16:15:04
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:15:04
+[info] Starting Parsing Data ... -> 14/05/2025, 16:15:16
+[info] Starting Save Httpx Results -> 14/05/2025, 16:15:16
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:15:16
+[info] Starting Parsing Data ... -> 14/05/2025, 16:15:23
+[info] Starting Save Httpx Results -> 14/05/2025, 16:15:23
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:15:23
+[info] Starting Parsing Data ... -> 14/05/2025, 16:15:28
+[info] Starting Save Httpx Results -> 14/05/2025, 16:15:28
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:15:28
+[info] Starting Parsing Data ... -> 14/05/2025, 16:16:09
+[info] Starting Save Httpx Results -> 14/05/2025, 16:16:09
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 14/05/2025, 16:19:00
+[info] 7 subs found for memoryleaks.ir -> 14/05/2025, 16:19:06
+[info] Starting Subfinder for 'google.com'... -> 14/05/2025, 16:19:07
+[info] 5803 subs found for google.com -> 14/05/2025, 16:19:17
+[info] Starting Subfinder for 'uber.com'... -> 14/05/2025, 16:20:25
+[info] 482 subs found for uber.com -> 14/05/2025, 16:21:40
+[info] Starting Subfinder for 'voorivex.academy'... -> 14/05/2025, 16:21:42
+[info] 5 subs found for voorivex.academy -> 14/05/2025, 16:21:52
+[info] Starting Subfinder for 'icollab.info'... -> 14/05/2025, 16:21:52
+[info] 7 subs found for icollab.info -> 14/05/2025, 16:22:13
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:22:13
+[info] Starting Parsing Data ... -> 14/05/2025, 16:22:28
+[info] Starting Save Httpx Results -> 14/05/2025, 16:22:28
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:22:28
+[info] Starting Parsing Data ... -> 14/05/2025, 16:22:38
+[info] Starting Save Httpx Results -> 14/05/2025, 16:22:38
+[info] Starting HTTPx on 'private_watchers/outputs/subdomains_httpx.txt'... -> 14/05/2025, 16:22:38
+[info] Starting Parsing Data ... -> 14/05/2025, 16:24:05
+[info] Starting Save Httpx Results -> 14/05/2025, 16:24:05
+[error] Subdomain discovery failed: column private_watchers_subdomainhttpx.httpx_result does not exist
+LINE 1: ...tchers_subdomainhttpx"."discovered_subdomain_id", "private_w...
+                                                             ^ -> 14/05/2025, 16:24:05
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 14/05/2025, 16:25:44
+ [+] 7 subs found for memoryleaks.ir -> 14/05/2025, 16:26:00
+[info] Starting Subfinder for 'google.com'... -> 14/05/2025, 16:26:00
+ [+] 384 subs found for google.com -> 14/05/2025, 16:26:17
+[info] Starting Subfinder for 'uber.com'... -> 14/05/2025, 16:26:21
+ [+] 158 subs found for uber.com -> 14/05/2025, 16:26:38
+[info] Starting Subfinder for 'voorivex.academy'... -> 14/05/2025, 16:26:38
+ [+] 5 subs found for voorivex.academy -> 14/05/2025, 16:26:56
+[info] Starting Subfinder for 'icollab.info'... -> 14/05/2025, 16:26:56
+ [+] 7 subs found for icollab.info -> 14/05/2025, 16:27:17
+[info] Starting HTTPx on 'asghar - google.com, icollab.info'... -> 14/05/2025, 16:27:17
+ [*] Starting Parsing Data ... -> 14/05/2025, 16:27:33
+     [*] Starting Save Httpx Results -> 14/05/2025, 16:27:33
+[info] Starting HTTPx on 'nexovir - uber.com, google.com, icollab.info'... -> 14/05/2025, 16:27:33
+ [*] Starting Parsing Data ... -> 14/05/2025, 16:27:47
+     [*] Starting Save Httpx Results -> 14/05/2025, 16:27:47
+[info] Starting HTTPx on 'mamad - google.com, memoryleaks.ir, uber.com, voorivex.academy'... -> 14/05/2025, 16:27:47
+ [*] Starting Parsing Data ... -> 14/05/2025, 16:27:54
+     [*] Starting Save Httpx Results -> 14/05/2025, 16:27:54
+[info] Starting HTTPx on 'mamad - google.com, memoryleaks.ir, uber.com, voorivex.academy'... -> 14/05/2025, 16:27:54
+ [*] Starting Parsing Data ... -> 14/05/2025, 16:29:20
+     [*] Starting Save Httpx Results -> 14/05/2025, 16:29:20
+[info] Starting HTTPx on 'mamad - google.com, memoryleaks.ir, uber.com, voorivex.academy'... -> 14/05/2025, 16:29:21
+ [*] Starting Parsing Data ... -> 14/05/2025, 16:29:26
+     [*] Starting Save Httpx Results -> 14/05/2025, 16:29:26

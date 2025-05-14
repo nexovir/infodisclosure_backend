@@ -2,7 +2,8 @@ from django.contrib import admin
 from django.contrib.admin import register
 from .models import *
 import nested_admin
-
+from rating.models import Rating
+from django.contrib.contenttypes.admin import GenericTabularInline
 
 
 
@@ -13,6 +14,12 @@ class SubCategoryInline(nested_admin.NestedTabularInline):
     prepopulated_fields = {'slug': ('title',)}
     fields = ('title', 'slug', 'is_active',)
 
+
+
+class RatingInline(GenericTabularInline):
+    model = Rating
+    extra = 0
+    readonly_fields = ('user', 'score', 'comment', 'created_at')
 
 
 
@@ -27,9 +34,9 @@ class ZeroDayCategoryAdmin(nested_admin.NestedModelAdmin):
 
 @register(ZeroDay)
 class ZeroDayAdmin(admin.ModelAdmin):
-    list_display = ['owner' , 'category' , 'reported_at' , 'is_verified', 'is_active']
+    list_display = ['id','owner' , 'category' , 'reported_at' , 'is_verified', 'is_active']
     list_editable = ['is_verified' , 'is_active']
-
+    inlines = [RatingInline]
 
 
 

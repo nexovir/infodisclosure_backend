@@ -88,7 +88,8 @@ class Tool(models.Model):
     TOOLS_NAME = [
         ('amass' , 'Amass'),
         ('subfinder' , 'Subfinder'),
-        ('dns_bruteforce' , 'DNS Bruteforce')
+        ('dns_bruteforce' , 'DNS Bruteforce'),
+        ('httpx' , 'HTTPx')
     ]
     tool_name = models.CharField(max_length=120, choices=TOOLS_NAME , default='subfinder')
 
@@ -137,30 +138,41 @@ class DiscoverSubdomain(BaseModel):
 
 
 
-
-
 class SubdomainHttpx(BaseModel):
     discovered_subdomain = models.OneToOneField(DiscoverSubdomain , on_delete=models.CASCADE)
-    status_code = models.IntegerField()
+    
+    httpx_result = models.URLField(max_length=150 , blank=True , null=True)
+    status_code = models.IntegerField(null=True, blank=True)
     title = models.CharField(null=True , blank=True , max_length=500)
     server = models.CharField(max_length=150 , null=True , blank=True)
-    technologies = models.JSONField(default=list)
-    has_ssl = models.BooleanField(default=False)
+    technologies = models.JSONField(default=list, blank=True)
+
+    has_ssl = models.CharField(default='False')
     ip_address = models.CharField(max_length=120 , null=True , blank=True)
-    port = models.IntegerField()
+    port = models.IntegerField(null=True, blank=True)
 
 
+    response_time = models.FloatField(null=True, blank=True)
+    content_type = models.CharField(max_length=150, null=True, blank=True)
+    content_length = models.IntegerField(null=True, blank=True)
+    cname = models.JSONField(default=list, blank=True)
+    a_records = models.JSONField(default=list, blank=True)
+
+    failed = models.CharField(default='False')
+    label = models.CharField(choices=LABELS , default='new')
+
+    
     def __str__(self):
         return f"{self.discovered_subdomain.subdomain} - {self.status_code}"
 
-    
-    class Meta :
+    class Meta:
         verbose_name = 'Subdomain Httpx'
         verbose_name_plural = 'Subdomain Httpxes'
 
 
 
-
+class SubdomainHttpxChanges(BaseModel):
+    pass
 
 
 class JSFileWatcher (BaseModel):
