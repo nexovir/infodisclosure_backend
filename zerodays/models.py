@@ -88,10 +88,10 @@ class ZeroDayDeal(BaseModel):
     completed_at = models.DateField()
     
     DEAL_STATUS_CHOICES = [
-        ('pending', 'Pending'),         # هنوز نهایی نشده
-        ('completed', 'Completed'),     # معامله با موفقیت انجام شده
-        ('cancelled', 'Cancelled'),     # لغو شده
-        ('disputed', 'Disputed'),       # مورد اختلاف
+        ('pending', 'Pending'),
+        ('completed', 'Completed'),
+        ('cancelled', 'Cancelled'),
+        ('disputed', 'Disputed'),
     ]
     deal_status = models.CharField(max_length=20, choices=DEAL_STATUS_CHOICES, default='pending')
 

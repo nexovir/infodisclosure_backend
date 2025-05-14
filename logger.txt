@@ -894,3 +894,408 @@ verification was successfully done -> 13/05/2025, 11:09:55
 Starting Shuffledns for nexovir ... -> 13/05/2025, 11:09:56
 Checking For uber.com Arecord ... -> 13/05/2025, 11:09:57
 verification faild -> 13/05/2025, 11:09:57
+Checking For uber.com Arecord ... -> 13/05/2025, 13:37:55
+verification faild -> 13/05/2025, 13:37:55
+Checking For icollab.info Arecord ... -> 13/05/2025, 13:37:55
+verification faild -> 13/05/2025, 13:38:02
+Checking For google.com Arecord ... -> 13/05/2025, 13:38:02
+verification was successfully done -> 13/05/2025, 13:38:02
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 13:38:02
+     Found 2167060 subdomains from private_watchers/wordlists/2m-subdomains.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 13:38:09
+Starting Shuffledns for mamad ... -> 13/05/2025, 13:38:09
+Checking For uber.com Arecord ... -> 13/05/2025, 13:43:13
+Error check a record Command '['dig', 'somedomaindosentexist.uber.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:43:38
+Checking For icollab.info Arecord ... -> 13/05/2025, 13:43:38
+Error check a record Command '['dig', 'somedomaindosentexist.icollab.info', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:44:03
+Checking For google.com Arecord ... -> 13/05/2025, 13:44:03
+Error check a record Command '['dig', 'somedomaindosentexist.google.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:44:28
+Checking For uber.com Arecord ... -> 13/05/2025, 13:46:14
+Error check a record Command '['dig', 'somedomaindosentexist.uber.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:46:39
+Checking For icollab.info Arecord ... -> 13/05/2025, 13:46:39
+Error check a record Command '['dig', 'somedomaindosentexist.icollab.info', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:47:04
+Checking For google.com Arecord ... -> 13/05/2025, 13:47:04
+Error check a record Command '['dig', 'somedomaindosentexist.google.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:47:29
+Checking For uber.com Arecord ... -> 13/05/2025, 13:52:04
+Error check a record Command '['dig', 'somedomaindosentexist.uber.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:52:29
+Checking For icollab.info Arecord ... -> 13/05/2025, 13:52:29
+Error check a record Command '['dig', 'somedomaindosentexist.icollab.info', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:52:54
+Checking For google.com Arecord ... -> 13/05/2025, 13:52:54
+Error check a record Command '['dig', 'somedomaindosentexist.google.com', 'A', '+short']' returned non-zero exit status 9. -> 13/05/2025, 13:53:19
+Checking For uber.com Arecord ... -> 13/05/2025, 13:58:35
+verification faild -> 13/05/2025, 13:58:35
+Checking For icollab.info Arecord ... -> 13/05/2025, 13:58:35
+verification faild -> 13/05/2025, 13:58:42
+Checking For google.com Arecord ... -> 13/05/2025, 13:58:42
+verification was successfully done -> 13/05/2025, 13:58:42
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 13:58:42
+     Found 2167060 subdomains from private_watchers/wordlists/2m-subdomains.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 13:59:03
+Starting Shuffledns for mamad ... -> 13/05/2025, 13:59:03
+Checking For uber.com Arecord ... -> 13/05/2025, 14:01:57
+verification faild -> 13/05/2025, 14:01:57
+Checking For icollab.info Arecord ... -> 13/05/2025, 14:01:57
+verification faild -> 13/05/2025, 14:02:07
+Checking For google.com Arecord ... -> 13/05/2025, 14:02:07
+verification was successfully done -> 13/05/2025, 14:02:07
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 14:02:07
+Starting Shuffledns for mamad - private_watchers.WatchedWildcard.None ... -> 13/05/2025, 14:02:27
+Starting DnsGen ... -> 13/05/2025, 14:02:35
+error in process for discover new subs: name 'domain' is not defined -> 13/05/2025, 14:02:35
+Checking For uber.com Arecord ... -> 13/05/2025, 14:16:22
+verification faild -> 13/05/2025, 14:16:22
+Checking For icollab.info Arecord ... -> 13/05/2025, 14:16:22
+verification faild -> 13/05/2025, 14:16:33
+Checking For google.com Arecord ... -> 13/05/2025, 14:16:33
+verification was successfully done -> 13/05/2025, 14:16:34
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 14:16:34
+     Found 2167060 subdomains from private_watchers/wordlists/2m-subdomains.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 14:16:58
+Starting Shuffledns for mamad - private_watchers.WatchedWildcard.None ... -> 13/05/2025, 14:16:58
+Checking For google.com Arecord ... -> 13/05/2025, 14:19:55
+verification was successfully done -> 13/05/2025, 14:19:55
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 14:19:55
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 14:20:16
+Starting Shuffledns for mamad - private_watchers.WatchedWildcard.None ... -> 13/05/2025, 14:20:16
+Starting DnsGen ... -> 13/05/2025, 14:20:24
+error in process for discover new subs: name 'domain' is not defined -> 13/05/2025, 14:20:24
+Checking For google.com Arecord ... -> 13/05/2025, 14:23:36
+verification was successfully done -> 13/05/2025, 14:23:37
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 14:23:37
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 14:23:57
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 14:23:57
+Starting DnsGen ... -> 13/05/2025, 14:24:02
+error in process for discover new subs: name 'domain' is not defined -> 13/05/2025, 14:24:02
+Checking For google.com Arecord ... -> 13/05/2025, 15:02:37
+verification was successfully done -> 13/05/2025, 15:02:37
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 15:02:37
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discoverd.txt -> 13/05/2025, 15:02:38
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 15:02:38
+Starting DnsGen ... -> 13/05/2025, 15:02:44
+error in process for discover new subs: [Errno 2] No such file or directory: 'outputs/sub-subdomains.txt' -> 13/05/2025, 15:02:44
+Checking For google.com Arecord ... -> 13/05/2025, 15:04:32
+verification was successfully done -> 13/05/2025, 15:04:33
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 15:04:33
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 15:04:33
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 15:04:33
+Starting DnsGen ... -> 13/05/2025, 15:04:38
+error in process for discover new subs: [Errno 2] No such file or directory: 'outputs/sub-subdomains.txt' -> 13/05/2025, 15:04:38
+Checking For google.com Arecord ... -> 13/05/2025, 15:06:29
+verification was successfully done -> 13/05/2025, 15:06:29
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 15:06:29
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 15:06:29
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 15:06:29
+Starting DnsGen ... -> 13/05/2025, 15:06:36
+error in process for discover new subs: [Errno 2] No such file or directory: 'outputs/sub-subdomains.txt' -> 13/05/2025, 15:06:36
+Checking For google.com Arecord ... -> 13/05/2025, 15:08:02
+verification was successfully done -> 13/05/2025, 15:08:02
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 15:08:02
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 15:08:03
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 15:08:03
+Starting DnsGen ... -> 13/05/2025, 15:08:09
+error in process for discover new subs: [Errno 2] No such file or directory: 'outputs/dns_gen.txt' -> 13/05/2025, 15:08:09
+Checking For google.com Arecord ... -> 13/05/2025, 15:09:12
+verification was successfully done -> 13/05/2025, 15:09:13
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 15:09:13
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 15:09:13
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 15:09:13
+Starting DnsGen ... -> 13/05/2025, 15:09:21
+Checking For uber.com Arecord ... -> 13/05/2025, 15:09:21
+verification faild -> 13/05/2025, 15:09:21
+Checking For icollab.info Arecord ... -> 13/05/2025, 15:09:21
+verification faild -> 13/05/2025, 15:09:31
+Checking For google.com Arecord ... -> 13/05/2025, 15:11:21
+verification was successfully done -> 13/05/2025, 15:11:21
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 15:11:21
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 15:11:21
+Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 15:11:21
+Starting DnsGen ... -> 13/05/2025, 15:11:31
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 15:11:32
+Checking For uber.com Arecord ... -> 13/05/2025, 15:11:32
+verification faild -> 13/05/2025, 15:11:33
+Checking For icollab.info Arecord ... -> 13/05/2025, 15:11:33
+verification faild -> 13/05/2025, 15:11:43
+Checking For google.com Arecord ... -> 13/05/2025, 16:21:54
+verification was successfully done -> 13/05/2025, 16:21:54
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:21:54
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:22:05
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:22:05
+[info] Starting DnsGen ... -> 13/05/2025, 16:22:11
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:22:11
+Saveing... -> 13/05/2025, 16:22:11
+Checking For uber.com Arecord ... -> 13/05/2025, 16:22:11
+verification faild -> 13/05/2025, 16:22:12
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:22:12
+verification faild -> 13/05/2025, 16:22:22
+Checking For google.com Arecord ... -> 13/05/2025, 16:23:59
+verification was successfully done -> 13/05/2025, 16:24:00
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:24:00
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:24:00
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:24:00
+[info] Starting DnsGen ... -> 13/05/2025, 16:24:07
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:24:07
+Saveing... -> 13/05/2025, 16:24:08
+Checking For uber.com Arecord ... -> 13/05/2025, 16:24:08
+verification was successfully done -> 13/05/2025, 16:24:11
+[info] Starting DNSBruteforce at uber.com -> 13/05/2025, 16:24:11
+     Found 38 subdomains from private_watchers/wordlists/nexovir/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:24:11
+[info] Starting Shuffledns for nexovir - google.com, uber.com, icollab.info ... -> 13/05/2025, 16:24:11
+[info] Starting DnsGen ... -> 13/05/2025, 16:24:22
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:24:22
+Saveing... -> 13/05/2025, 16:24:22
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:24:22
+verification faild -> 13/05/2025, 16:24:32
+Checking For google.com Arecord ... -> 13/05/2025, 16:24:55
+verification was successfully done -> 13/05/2025, 16:24:55
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:24:55
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:25:01
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:25:01
+[info] Starting DnsGen ... -> 13/05/2025, 16:25:08
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:25:08
+Saveing... -> 13/05/2025, 16:25:08
+Checking For uber.com Arecord ... -> 13/05/2025, 16:25:08
+verification faild -> 13/05/2025, 16:25:09
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:25:09
+verification faild -> 13/05/2025, 16:25:31
+Checking For google.com Arecord ... -> 13/05/2025, 16:25:56
+verification was successfully done -> 13/05/2025, 16:25:56
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:25:56
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:25:56
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:25:56
+Checking For google.com Arecord ... -> 13/05/2025, 16:26:01
+verification was successfully done -> 13/05/2025, 16:26:01
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:26:01
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:02
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:26:02
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:04
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:04
+Saveing... -> 13/05/2025, 16:26:04
+Checking For uber.com Arecord ... -> 13/05/2025, 16:26:04
+verification faild -> 13/05/2025, 16:26:04
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:26:04
+Checking For google.com Arecord ... -> 13/05/2025, 16:26:06
+verification was successfully done -> 13/05/2025, 16:26:06
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:26:06
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:06
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:26:06
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:09
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:10
+Saveing... -> 13/05/2025, 16:26:10
+Checking For uber.com Arecord ... -> 13/05/2025, 16:26:10
+verification faild -> 13/05/2025, 16:26:10
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:26:10
+Checking For google.com Arecord ... -> 13/05/2025, 16:26:11
+verification was successfully done -> 13/05/2025, 16:26:11
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:26:11
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:11
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:26:11
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:11
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:11
+Saveing... -> 13/05/2025, 16:26:12
+Checking For uber.com Arecord ... -> 13/05/2025, 16:26:12
+verification faild -> 13/05/2025, 16:26:12
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:26:12
+verification was successfully done -> 13/05/2025, 16:26:12
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 16:26:12
+     Found 38 subdomains from private_watchers/wordlists/nexovir/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:13
+[info] Starting Shuffledns for nexovir - google.com, uber.com, icollab.info ... -> 13/05/2025, 16:26:13
+verification faild -> 13/05/2025, 16:26:14
+verification faild -> 13/05/2025, 16:26:15
+Checking For google.com Arecord ... -> 13/05/2025, 16:26:16
+verification was successfully done -> 13/05/2025, 16:26:16
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:26:16
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:16
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:26:16
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:16
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:16
+Saveing... -> 13/05/2025, 16:26:16
+Checking For uber.com Arecord ... -> 13/05/2025, 16:26:16
+verification faild -> 13/05/2025, 16:26:16
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:26:16
+verification was successfully done -> 13/05/2025, 16:26:17
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 16:26:17
+     Found 38 subdomains from private_watchers/wordlists/nexovir/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:17
+[info] Starting Shuffledns for nexovir - google.com, uber.com, icollab.info ... -> 13/05/2025, 16:26:17
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:21
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:22
+Saveing... -> 13/05/2025, 16:26:22
+Checking For uber.com Arecord ... -> 13/05/2025, 16:26:22
+verification faild -> 13/05/2025, 16:26:22
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:26:22
+verification was successfully done -> 13/05/2025, 16:26:22
+[info] Starting DNSBruteforce at icollab.info -> 13/05/2025, 16:26:22
+     Found 38 subdomains from private_watchers/wordlists/nexovir/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:26:22
+[info] Starting Shuffledns for nexovir - google.com, uber.com, icollab.info ... -> 13/05/2025, 16:26:22
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:38
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:38
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:42
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:42
+Saveing... -> 13/05/2025, 16:26:42
+Saveing... -> 13/05/2025, 16:26:43
+[info] Starting DnsGen ... -> 13/05/2025, 16:26:46
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:26:46
+Saveing... -> 13/05/2025, 16:26:47
+Checking For google.com Arecord ... -> 13/05/2025, 16:28:09
+verification was successfully done -> 13/05/2025, 16:28:09
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:28:09
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:28:16
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:28:16
+[info] Starting DnsGen ... -> 13/05/2025, 16:28:22
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:28:22
+Saveing... -> 13/05/2025, 16:28:23
+Checking For uber.com Arecord ... -> 13/05/2025, 16:28:23
+verification faild -> 13/05/2025, 16:28:23
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:28:23
+verification faild -> 13/05/2025, 16:28:35
+Checking For google.com Arecord ... -> 13/05/2025, 16:34:53
+verification was successfully done -> 13/05/2025, 16:34:54
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:34:54
+     Found 38 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:34:54
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:34:54
+[info] Starting DnsGen ... -> 13/05/2025, 16:35:00
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:35:00
+Saveing... -> 13/05/2025, 16:35:01
+DnsBrute Was Successfully done mamad - google.com -> 13/05/2025, 16:35:01
+Checking For uber.com Arecord ... -> 13/05/2025, 16:35:01
+verification faild -> 13/05/2025, 16:35:01
+Checking For icollab.info Arecord ... -> 13/05/2025, 16:35:01
+verification faild -> 13/05/2025, 16:35:08
+  [info] Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 16:36:16
+    [info] 828 subs for google.com discovered -> 13/05/2025, 16:36:32
+  [info] Starting Subfinder for 'icollab.info' Please Wait ... -> 13/05/2025, 16:36:45
+    [info] 8 subs for icollab.info discovered -> 13/05/2025, 16:37:11
+Checking For google.com Arecord ... -> 13/05/2025, 16:37:11
+verification was successfully done -> 13/05/2025, 16:37:11
+[info] Starting DNSBruteforce at google.com -> 13/05/2025, 16:37:11
+  [info] Starting Subfinder for 'google.com' Please Wait ... -> 13/05/2025, 16:37:11
+    [info] 826 subs for google.com discovered -> 13/05/2025, 16:37:19
+     Found 857 subdomains from private_watchers/wordlists/mamad/1.txt and dnsbruteforce_discovered.txt -> 13/05/2025, 16:37:19
+[info] Starting Shuffledns for mamad - google.com ... -> 13/05/2025, 16:37:19
+[info] Starting DnsGen ... -> 13/05/2025, 16:37:34
+     Starting Shuffledns on DnsGen ... -> 13/05/2025, 16:37:38
+Saveing... -> 13/05/2025, 16:52:29
+[info] Starting Subfinder for 'google.com'... -> 13/05/2025, 17:53:43
+[info] 379 subs found for google.com -> 13/05/2025, 17:54:03
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 17:54:06
+[info] 8 subs found for icollab.info -> 13/05/2025, 17:54:27
+[info] A record check passed for google.com -> 13/05/2025, 17:54:27
+[info] Starting DNSBruteforce for google.com -> 13/05/2025, 17:54:27
+[info] Starting Subfinder for 'google.com'... -> 13/05/2025, 17:54:27
+[info] 828 subs found for google.com -> 13/05/2025, 17:54:34
+[info] 859 subdomains collected for DNS bruteforce -> 13/05/2025, 17:54:34
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:14:20
+[info] 3679 subs found for nike.com -> 13/05/2025, 18:14:36
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:14:55
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:15:02
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:15:02
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:15:22
+[info] A record verification failed for uber.com -> 13/05/2025, 18:15:27
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:15:32
+[info] A record verification failed for voorivex.com -> 13/05/2025, 18:15:32
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:16:27
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:16:29
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:16:29
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:16:50
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:16:50
+[info] 2541 subs found for nike.com -> 13/05/2025, 18:17:10
+[info] A record verification failed for uber.com -> 13/05/2025, 18:17:23
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:17:28
+[info] A record verification failed for nike.com -> 13/05/2025, 18:17:28
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:20:32
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:20:48
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:20:48
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:21:08
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:21:09
+[info] 2398 subs found for nike.com -> 13/05/2025, 18:21:39
+[info] A record verification failed for uber.com -> 13/05/2025, 18:21:56
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:22:01
+[info] A record check passed for kamal.com -> 13/05/2025, 18:22:01
+[info] Starting DNSBruteforce for kamal.com -> 13/05/2025, 18:22:01
+[info] Starting Subfinder for 'kamal.com'... -> 13/05/2025, 18:22:01
+[info] 1 subs found for kamal.com -> 13/05/2025, 18:22:05
+[info] 36 subdomains collected for DNS bruteforce -> 13/05/2025, 18:22:05
+[done] DNSBrute completed for mamad - kamal.com -> 13/05/2025, 18:22:17
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:26:08
+[info] 499 subs found for nike.com -> 13/05/2025, 18:26:40
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:26:43
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:26:50
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:26:50
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:27:10
+[info] A record verification failed for uber.com -> 13/05/2025, 18:27:10
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:27:19
+[info] A record check passed for kamal.com -> 13/05/2025, 18:27:19
+[info] Starting DNSBruteforce for kamal.com -> 13/05/2025, 18:27:19
+[info] Starting Subfinder for 'kamal.com'... -> 13/05/2025, 18:27:19
+[info] 1 subs found for kamal.com -> 13/05/2025, 18:27:23
+[info] 36 subdomains collected for DNS bruteforce -> 13/05/2025, 18:27:23
+[done] DNSBrute completed for mamad - kamal.com -> 13/05/2025, 18:27:29
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:30:21
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:30:42
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:30:42
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:30:48
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:30:48
+[info] 3679 subs found for nike.com -> 13/05/2025, 18:31:04
+[info] A record verification failed for uber.com -> 13/05/2025, 18:31:22
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:31:37
+[info] A record check passed for kamal.com -> 13/05/2025, 18:31:37
+[info] Starting DNSBruteforce for kamal.com -> 13/05/2025, 18:31:37
+[info] Starting Subfinder for 'kamal.com'... -> 13/05/2025, 18:31:37
+[info] 1 subs found for kamal.com -> 13/05/2025, 18:31:43
+[info] 36 subdomains collected for DNS bruteforce -> 13/05/2025, 18:31:43
+[done] DNSBrute completed for mamad - kamal.com -> 13/05/2025, 18:31:49
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:35:08
+[info] 655 subs found for nike.com -> 13/05/2025, 18:35:26
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:35:29
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:35:49
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:35:49
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:36:10
+[info] A record check passed for kamal.com -> 13/05/2025, 18:36:10
+[info] Starting DNSBruteforce for kamal.com -> 13/05/2025, 18:36:10
+[info] Starting Subfinder for 'kamal.com'... -> 13/05/2025, 18:36:10
+[info] 1 subs found for kamal.com -> 13/05/2025, 18:36:14
+[info] 36 subdomains collected for DNS bruteforce -> 13/05/2025, 18:36:14
+[done] DNSBrute completed for mamad - kamal.com -> 13/05/2025, 18:36:20
+[info] A record verification failed for uber.com -> 13/05/2025, 18:36:20
+DNS A record check error: 'AssetWatcher' object has no attribute 'update' -> 13/05/2025, 18:36:20
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:36:35
+DNS A record check error: 'AssetWatcher' object has no attribute 'update' -> 13/05/2025, 18:36:35
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:38:16
+[info] 499 subs found for nike.com -> 13/05/2025, 18:38:37
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:38:38
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:38:59
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:38:59
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:39:06
+[info] A record check passed for kamal.com -> 13/05/2025, 18:39:06
+[info] Starting DNSBruteforce for kamal.com -> 13/05/2025, 18:39:06
+[info] Starting Subfinder for 'kamal.com'... -> 13/05/2025, 18:39:06
+[info] 1 subs found for kamal.com -> 13/05/2025, 18:39:17
+[info] 36 subdomains collected for DNS bruteforce -> 13/05/2025, 18:39:17
+[done] DNSBrute completed for mamad - kamal.com -> 13/05/2025, 18:39:23
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:39:33
+[info] A record verification failed for uber.com -> 13/05/2025, 18:39:33
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:42:11
+[info] 2541 subs found for nike.com -> 13/05/2025, 18:42:23
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:42:36
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:42:57
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:42:57
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:43:09
+[error] Subdomain discovery failed: check_a_record() takes 1 positional argument but 2 were given -> 13/05/2025, 18:43:09
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:44:39
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:44:50
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:44:50
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:45:11
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:45:11
+[info] 2541 subs found for nike.com -> 13/05/2025, 18:45:20
+[error] Subdomain discovery failed: check_a_record() takes 1 positional argument but 2 were given -> 13/05/2025, 18:45:33
+[info] Starting Subfinder for 'icollab.info'... -> 13/05/2025, 18:45:48
+[info] 8 subs found for icollab.info -> 13/05/2025, 18:46:09
+[info] Starting Subfinder for 'nike.com'... -> 13/05/2025, 18:46:09
+[info] 3536 subs found for nike.com -> 13/05/2025, 18:46:30
+[info] Starting Subfinder for 'voorivex.academy'... -> 13/05/2025, 18:46:50
+[info] 6 subs found for voorivex.academy -> 13/05/2025, 18:46:56
+[info] A record check passed for kamal.com -> 13/05/2025, 18:46:56
+[info] Starting DNSBruteforce for kamal.com -> 13/05/2025, 18:46:56
+[info] Starting Subfinder for 'kamal.com'... -> 13/05/2025, 18:46:56
+[info] 1 subs found for kamal.com -> 13/05/2025, 18:47:08
+[info] 36 subdomains collected for DNS bruteforce -> 13/05/2025, 18:47:08
+[done] DNSBrute completed for mamad - kamal.com -> 13/05/2025, 18:47:18
+[info] A record verification failed for uber.com -> 13/05/2025, 18:47:18
+[info] A record verification failed for icollab.info -> 13/05/2025, 18:47:25
+[info] Starting Subfinder for 'voorivex.academy'... -> 14/05/2025, 05:18:49

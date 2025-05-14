@@ -61,9 +61,10 @@ class AssetWatcher(BaseModel):
         default=default_wordlist_path,  
     )
 
-
     def __str__(self):
-        return f"{self.user.username}"
+        wildcards = ", ".join([w.wildcard for w in self.wildcards.all()])
+        return f"{self.user.username} - {wildcards}"
+
 
     def save(self, *args, **kwargs):
         try:
