@@ -6,6 +6,9 @@ from django.utils import timezone
 
 
 
+SEVERITY_CHOICES = [('Low', 'Low'), ('Medium', 'Medium'), ('High', 'High'), ('Critical', 'Critical')]
+
+
 class ZeroDayCategory (BaseModel):
     title = models.CharField(max_length=100)
     slug = models.SlugField(max_length=100, unique=True)
@@ -29,6 +32,11 @@ class ZeroDay (BaseModel):
     title = models.CharField(max_length=150 , blank=False , null=False)
     category = models.ForeignKey(ZeroDayCategory , on_delete = models.CASCADE )
     description = models.TextField(help_text="Detailed description of the zero-day vulnerability.")
+    affected_products = models.TextField(help_text="List of affected software/hardware versions.")
+    severity = models.CharField(max_length=20, choices=SEVERITY_CHOICES, default="Medium")
+    exploit_vector = models.CharField(max_length=100, help_text="E.g., Remote, Local, Web-based")
+    impact = models.CharField(max_length=100, help_text="E.g., RCE, LFI, SQLi, PrivEsc")
+
     cve_reference = models.CharField(max_length=50, blank=True, null=True, help_text="Optional CVE reference if it exists.")
     reported_at = models.DateTimeField(auto_now_add=True)
     is_verified = models.BooleanField(default=False, help_text="Indicates whether the zero-day has been verified.")
