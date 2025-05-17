@@ -1,8 +1,8 @@
 from django.db import models
 from users.models import BaseModel
 from django.contrib.auth.models import User
-
-
+from django.contrib.contenttypes.fields import GenericRelation
+from interactions.models import Like, Comment
 
 
 
@@ -48,8 +48,17 @@ class Tool(BaseModel):
     is_public = models.BooleanField(default=False)
     approved = models.BooleanField(default=False)
 
+    likes = GenericRelation(Like)
+    comments = GenericRelation(Comment)
+
     def __str__(self):
         return self.title
+
+    def like_count(self):
+        return self.likes.count()
+
+    def comment_count(self):
+        return self.comments.count()
 
     class Meta:
         verbose_name = 'Tool'

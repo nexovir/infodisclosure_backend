@@ -1,5 +1,5 @@
+dl.voorivex.academy
 mail.voorivex.academy
 registry.voorivex.academy
 api.voorivex.academy
 dl-api.voorivex.academy
-dl.voorivex.academy

@@ -30,6 +30,6 @@ class CategoryAdmin(nested_admin.NestedModelAdmin):
 
 @register(Techniques)
 class TechniquesAdmin(admin.ModelAdmin):
-    list_display = ['id' , 'author' , 'title' , 'category' , 'difficulty'  , 'is_active']
+    list_display = ['id' , 'author' , 'title' , 'category' , 'difficulty'  , 'like_count' , 'comment_count',  'is_active']
     list_display_links = ['id', 'author',]
     list_editable = ['is_active']

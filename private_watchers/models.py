@@ -145,20 +145,18 @@ class SubdomainHttpx(BaseModel):
     status_code = models.IntegerField(null=True, blank=True)
     title = models.CharField(null=True , blank=True , max_length=500)
     server = models.CharField(max_length=150 , null=True , blank=True)
-    technologies = models.JSONField(default=list, blank=True)
+    technologies = models.CharField(max_length=300, blank=True)
 
     has_ssl = models.CharField(default='False')
     ip_address = models.CharField(max_length=120 , null=True , blank=True)
-    port = models.IntegerField(null=True, blank=True)
+    port = models.CharField(null=True, blank=True)
 
 
-    response_time = models.FloatField(null=True, blank=True)
     content_type = models.CharField(max_length=150, null=True, blank=True)
     content_length = models.IntegerField(null=True, blank=True)
-    cname = models.JSONField(default=list, blank=True)
-    a_records = models.JSONField(default=list, blank=True)
+    cname = models.CharField(max_length=300, blank=True)
+    a_records = models.CharField(max_length=300, blank=True)
 
-    failed = models.CharField(default='False')
     label = models.CharField(choices=LABELS , default='new')
 
     
@@ -171,8 +169,36 @@ class SubdomainHttpx(BaseModel):
 
 
 
+
 class SubdomainHttpxChanges(BaseModel):
-    pass
+    discovered_subdomain = models.OneToOneField(DiscoverSubdomain , on_delete=models.CASCADE)
+
+    httpx_result_change = models.URLField(max_length=150 , blank=True , null=True)
+    status_code_change = models.IntegerField(null=True, blank=True)
+    title_change = models.CharField(null=True , blank=True , max_length=500)
+    server_change = models.CharField(max_length=150 , null=True , blank=True)
+    technologies_change = models.CharField(max_length=500, blank=True)
+
+    has_ssl_change = models.CharField(default='False')
+    ip_address_change = models.CharField(max_length=120 , null=True , blank=True)
+    port_change = models.CharField(null=True, blank=True)
+
+
+    content_type_change = models.CharField(max_length=150, null=True, blank=True)
+    content_length_change = models.IntegerField(null=True, blank=True)
+    cname_change = models.CharField(max_length=500, blank=True)
+    a_records_change = models.CharField(max_length=500, blank=True)
+
+    label = models.CharField(choices=LABELS , default='new')
+
+    def __str__(self):
+        return f"{self.discovered_subdomain.subdomain} - {self.label}"
+
+    class Meta:
+        verbose_name = 'Subdomain Httpx Changes'
+        verbose_name_plural = 'Subdomain Httpxes Changes'
+
+
 
 
 class JSFileWatcher (BaseModel):

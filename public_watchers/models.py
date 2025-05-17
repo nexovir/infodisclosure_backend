@@ -1,6 +1,7 @@
 from django.db import models
 from users.models import BaseModel
-
+from django.contrib.contenttypes.fields import GenericRelation
+from interactions.models import Like, Comment
 
 
 class ProgramWatcher(BaseModel):
@@ -18,10 +19,11 @@ class ProgramWatcher(BaseModel):
     
     status = models.CharField(max_length=150, choices=STATUSES, default='pending') 
     notify = models.BooleanField(default=False)
+    
 
     def __str__(self):
         return f"{self.platform_name} - {self.status}"
-    
+
     class Meta :
         verbose_name = 'Program Watcher'
         verbose_name_plural = 'Program Watchers'
@@ -30,8 +32,9 @@ class ProgramWatcher(BaseModel):
 
 
 class DiscoverdProgram(BaseModel):
-    watcher = models.ForeignKey(ProgramWatcher , on_delete=models.PROTECT)
-    name = models.CharField(max_length=200 , unique=True)
+    
+    watcher = models.ForeignKey(ProgramWatcher , on_delete=models.PROTECT, related_name='watcher_program' )
+    name = models.CharField(max_length=200)
     url = models.URLField()
     TYPES = [
         ('vdp' , 'VDP'),
@@ -40,6 +43,8 @@ class DiscoverdProgram(BaseModel):
     ]
     type = models.CharField(max_length=100 , choices=TYPES , blank=False , null=False)
     discovered_at = models.DateTimeField(auto_now=True)
+    likes = GenericRelation(Like)
+
     LABEL = [
         ('new', 'NEW'),
         ('available' , 'AVAILABLE')
@@ -53,7 +58,12 @@ class DiscoverdProgram(BaseModel):
     def __str__(self):
         return f"{self.watcher} : {self.name} -> {self.label}"
     
+    def like_count(self):
+        return self.likes.count()
+
     class Meta:
+        ordering = ['-discovered_at']
+        unique_together = ('watcher', 'name')
         verbose_name = 'Discoverd Program'
         verbose_name_plural = 'Discoverd Programs'
 

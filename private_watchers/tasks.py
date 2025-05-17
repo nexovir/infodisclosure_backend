@@ -10,7 +10,7 @@ OUTPUT_PATH = 'private_watchers/outputs'
 WORDLISTS_PATH = 'private_watchers/wordlists'
 
 
-def send_message(message: str, telegram: bool = False, colour: str = "YELLOW", logger: bool = True):
+def sendmessage(message: str, telegram: bool = False, colour: str = "YELLOW", logger: bool = True):
     color = getattr(colorama.Fore, colour.upper(), colorama.Fore.YELLOW)
     print(color + message + colorama.Style.RESET_ALL)
 
@@ -30,20 +30,20 @@ def send_message(message: str, telegram: bool = False, colour: str = "YELLOW", l
 
 def run_subfinder(domain):
     try:
-        send_message(f"[info] Starting Subfinder for '{domain}'...", telegram=False)
-        output = os.popen(f"subfinder -d {domain} -silent -timeout 20 -max-time 20").read()
+        sendmessage(f"[info] Starting Subfinder for '{domain}'...", telegram=False)
+        output = os.popen(f"subfinder -d {domain} -all -silent -timeout 60 -max-time 40").read()
         subdomains = [line.strip() for line in output.splitlines() if line.strip()]
-        send_message(f" [+] {len(subdomains)} subs found for {domain}", colour='GREEN')
+        sendmessage(f"  [+] {len(subdomains)} subs found for {domain}", colour='GREEN')
         return subdomains
     except Exception as e:
-        send_message(f"Error running Subfinder on {domain}: {e}", colour='RED')
+        sendmessage(f"Error running Subfinder on {domain}: {e}", colour='RED')
         return []
 
 
 
 def run_httpx(watcher_wildcard , input_file_path):
     try:
-        send_message(f"[info] Starting HTTPx on '{watcher_wildcard}'...", telegram=False)
+        sendmessage(f"[info] Starting HTTPx on '{watcher_wildcard}'...", telegram=False)
 
         output_file_path = f"{input_file_path}_output.jsonl"
 
@@ -78,12 +78,12 @@ def run_httpx(watcher_wildcard , input_file_path):
         return output_file_path
 
     except subprocess.CalledProcessError as e:
-        send_message(f"[error] HTTPx failed: {e}", colour='RED')
+        sendmessage(f"[error] HTTPx failed: {e}", colour='RED')
         return None
 
 
 def parse_httpx_jsonl(file_path):
-    send_message(f" [*] Starting Parsing Data ...")
+    sendmessage(f"  [*] Starting Parsing Data ...")
     results = []
     with open(file_path, 'r') as f:
         for line in f:
@@ -97,7 +97,8 @@ def parse_httpx_jsonl(file_path):
 
 
 def save_httpx_results(results):
-    send_message(f"     [+] Starting Save Httpx Results", colour='GREEN')
+    sendmessage(f"     [+] Starting Save Httpx Results and Detect Changes", colour='GREEN')
+
     for item in results:
         domain = item.get("input")
         try:
@@ -105,28 +106,73 @@ def save_httpx_results(results):
         except DiscoverSubdomain.DoesNotExist:
             continue
 
+        new_data = {
+            "httpx_result": item.get("url"),
+            "status_code": item.get("status_code"),
+            "title": item.get("title"),
+            "server": item.get("web_server"),
+            "technologies": item.get("technologies") or [],
+            "has_ssl": 'True' if item.get("tls", 'False') else 'False',
+            "ip_address": item.get("ip"),
+            "port": item.get("port"),
+            "content_type": item.get("content_type"),
+            "content_length": item.get("content_length"),
+            "cname": item.get("cname") or [],
+            "a_records": item.get("a") or [],
+        }
+
+        try:
+            existing = SubdomainHttpx.objects.get(discovered_subdomain=discovered)
+            change_data = {}
+
+            for field, new_value in new_data.items():
+                old_value = getattr(existing, field)
+                if old_value != new_value:
+                    # ذخیره تغییرات به شکل old_value -> new_value
+                    change_data[f"{field}_change"] = f"{old_value} -> {new_value}"
+
+            if change_data:
+                # فقط اگر تغییر وجود داشت، بروزرسانی کن و تغییرات را ثبت کن
+                obj, created = SubdomainHttpx.objects.update_or_create(
+                    discovered_subdomain=discovered,
+                    defaults={**new_data}
+                )
+
+                if created:
+                    obj.label = 'new'
+                    obj.save()
+
+                SubdomainHttpxChanges.objects.update_or_create(
+                    discovered_subdomain=discovered,
+                    defaults={**change_data, "label": "changed"}
+                )
+
+            else:
+                # اگر تغییری نبود، فیلدها رو همون قبلی‌ها بذار
+                if existing:
+                    obj = existing  # قبلی رو نگه دار
+                else:
+                    # اگر رکوردی نبود، بسازش با داده‌های فعلی
+                    obj, created = SubdomainHttpx.objects.update_or_create(
+                        discovered_subdomain=discovered,
+                        defaults={**new_data}
+                    )
+                    if created:
+                        obj.label = 'new'
+                        obj.save()
+
+        except SubdomainHttpx.DoesNotExist:
+            existing = None
+
         obj, created = SubdomainHttpx.objects.update_or_create(
             discovered_subdomain=discovered,
-            defaults={
-                "status_code": item.get("status_code"),
-                "httpx_result" : item.get("url"),
-                "title": item.get("title"),
-                "server": item.get("web_server"),
-                "technologies": item.get("technologies") or [],
-                "has_ssl": 'True' if item.get("tls", 'False') else 'False',
-                "ip_address": item.get("ip"),
-                "port": item.get("port"),
-                "content_type": item.get("content_type"),
-                "content_length": item.get("content_length"),
-                "response_time": item.get("response_time"),
-                "cname": item.get("cname") or [],
-                "a_records": item.get("a") or [],
-                "failed": 'True' if item.get("failed", 'False') else 'False',
-            }
+            defaults={**new_data}
         )
-        if created : 
+
+        if created:
             obj.label = 'new'
             obj.save()
+
 
 
 def parse_datetime(date_str):
@@ -145,7 +191,7 @@ def export_for_httpx(subdomains , file):
             file.writelines([f"{s}\n" for s in subdomains])
    
     except Exception as e :
-        send_message(f"Error Export domains for Httpx {e}" , colour='RED')
+        sendmessage(f"Error Export domains for Httpx {e}" , colour='RED')
 
 
 def process_subfinder(domains):
@@ -171,7 +217,7 @@ def process_subfinder(domains):
                 wildcard.status = 'completed'
                 wildcard.save()
     except Exception as e:
-        send_message(f"Process Subfinder error: {e}", colour='RED')
+        sendmessage(f"Process Subfinder error: {e}", colour='RED')
 
 
 def clear_subdomains_labels(watcher):
@@ -185,14 +231,14 @@ def check_a_record(domain: str) -> bool:
         fake_domain = f"nonexistent1234.{domain}"
         result = pydig.query(fake_domain, 'A')
         if result:
-            send_message(f"[info] A record verification failed for {domain}", colour='RED')
+            sendmessage(f"[info] A record verification failed for {domain}", colour='RED')
 
 
             return False
-        send_message(f"[info] A record check passed for {domain}", colour='GREEN')
+        sendmessage(f"[info] A record check passed for {domain}", colour='GREEN')
         return True
     except Exception as e:
-        send_message(f"DNS A record check error: {e}", colour='RED')
+        sendmessage(f"DNS A record check error: {e}", colour='RED')
         return False
 
 
@@ -209,7 +255,7 @@ def process_dns_bruteforce(watcher_assets):
                 wildcard.save()
                 continue
 
-            send_message(f"[info] Starting DNSBruteforce for {wildcard.wildcard}", telegram=True)
+            sendmessage(f"[info] Starting DNSBruteforce for {wildcard.wildcard}", telegram=True)
             subdomains = generate_dns_wordlist(asset, wildcard)
 
             # First Shuffledns
@@ -235,7 +281,7 @@ def process_dns_bruteforce(watcher_assets):
             save_discovered_subs([shuffle_out, dnsgen_out], wildcard, dns_tool)
             wildcard.status = 'completed'
             wildcard.save()
-            send_message(f"[done] DNSBrute completed for {asset}", colour='GREEN')
+            sendmessage(f"[done] DNSBrute completed for {asset}", colour='GREEN')
 
 
 def generate_dns_wordlist(asset, wildcard):
@@ -255,7 +301,7 @@ def generate_dns_wordlist(asset, wildcard):
     with open(combined_file, 'w') as f:
         f.writelines([f"{word}\n" for word in combined])
 
-    send_message(f"[info] {len(combined)} subdomains collected for DNS bruteforce", colour='GREEN')
+    sendmessage(f"[info] {len(combined)} subdomains collected for DNS bruteforce", colour='GREEN')
     return combined
 
 
@@ -326,7 +372,7 @@ def check_assets():
         except Exception as e:
             asset.status = 'failed'
             asset.save()
-            send_message(f"[error] Failed to process {asset}: {e}", colour='RED')
+            sendmessage(f"[error] Failed to process {asset}: {e}", colour='RED')
 
     try:
         pass
@@ -334,6 +380,6 @@ def check_assets():
         # process_dns_bruteforce(assets)
         process_httpx(assets)
     except Exception as e:
-        send_message(f"[error] Subdomain discovery failed: {e}", colour='RED')
+        sendmessage(f"[error] Subdomain discovery failed: {e}", colour='RED')
 
     AssetWatcher.objects.filter(is_active=True).update(status='completed')

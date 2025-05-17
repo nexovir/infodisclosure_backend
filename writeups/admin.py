@@ -26,7 +26,7 @@ class CategoryAdmin(nested_admin.NestedModelAdmin):
 
 @register(WriteUp)
 class WriteUpAdmin(admin.ModelAdmin):
-    list_display = ['id', 'author', 'title' , 'category', 'vulnerability_type', 'target_type', 'price' , 'purchase_count' , 'is_free' , 'is_public' , 'approved' , 'is_active']
+    list_display = [field.name for field in WriteUp._meta.fields if field.name not in ('slug','short_description' , 'content' , 'preview_text')] + ['like_count', 'comment_count']
     list_editable = ['approved' , 'is_active']
     prepopulated_fields = {'slug': ('title',)}
     ordering = ('id',)

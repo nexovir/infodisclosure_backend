@@ -1482,3 +1482,243 @@ LINE 1: ...tchers_subdomainhttpx"."discovered_subdomain_id", "private_w...
 [info] Starting HTTPx on 'mamad - google.com, memoryleaks.ir, uber.com, voorivex.academy'... -> 14/05/2025, 16:29:21
  [*] Starting Parsing Data ... -> 14/05/2025, 16:29:26
      [*] Starting Save Httpx Results -> 14/05/2025, 16:29:26
+[info] Starting Subfinder for 'uber.com'... -> 15/05/2025, 06:05:56
+ [+] 482 subs found for uber.com -> 15/05/2025, 06:06:18
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 15/05/2025, 06:06:20
+ [+] 7 subs found for memoryleaks.ir -> 15/05/2025, 06:06:27
+[info] Starting Subfinder for 'icollab.info'... -> 15/05/2025, 06:06:27
+ [+] 7 subs found for icollab.info -> 15/05/2025, 06:06:49
+[info] Starting Subfinder for 'google.com'... -> 15/05/2025, 06:06:50
+ [+] 618 subs found for google.com -> 15/05/2025, 06:07:07
+[info] Starting Subfinder for 'voorivex.academy'... -> 15/05/2025, 06:07:17
+ [+] 5 subs found for voorivex.academy -> 15/05/2025, 06:07:20
+[info] Starting HTTPx on 'icollab.info - asghar'... -> 15/05/2025, 06:07:20
+ [*] Starting Parsing Data ... -> 15/05/2025, 06:07:34
+     [+] Starting Save Httpx Results -> 15/05/2025, 06:07:34
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 15/05/2025, 06:07:35
+ [*] Starting Parsing Data ... -> 15/05/2025, 06:07:51
+     [+] Starting Save Httpx Results -> 15/05/2025, 06:07:51
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 15/05/2025, 06:07:51
+ [*] Starting Parsing Data ... -> 15/05/2025, 06:07:56
+     [+] Starting Save Httpx Results -> 15/05/2025, 06:07:56
+[info] Starting HTTPx on 'uber.com - mamad'... -> 15/05/2025, 06:07:56
+ [*] Starting Parsing Data ... -> 15/05/2025, 06:09:18
+     [+] Starting Save Httpx Results -> 15/05/2025, 06:09:18
+[info] Starting HTTPx on 'memoryleaks.ir - mamad'... -> 15/05/2025, 06:09:19
+ [*] Starting Parsing Data ... -> 15/05/2025, 06:09:27
+     [+] Starting Save Httpx Results -> 15/05/2025, 06:09:27
+fetching Hackerone data ... -> 15/05/2025, 06:10:11
+Connection OK -> 15/05/2025, 06:10:14
+Hackerone Data Inserting Successfully -> 15/05/2025, 06:14:55
+fetching Bugcrowd data ... -> 15/05/2025, 06:14:55
+Connection OK -> 15/05/2025, 06:15:00
+Bugcrowd Data Inserting Successfully -> 15/05/2025, 06:15:21
+fetching Federacy data ... -> 15/05/2025, 06:15:21
+Connection OK -> 15/05/2025, 06:15:22
+Federacy Data Inserting Successfully -> 15/05/2025, 06:15:23
+fetching Intigriti data ... -> 15/05/2025, 06:15:23
+Connection OK -> 15/05/2025, 06:15:26
+Intigriti Data Inserting Successfully -> 15/05/2025, 06:15:34
+fetching Yeswehack data ... -> 15/05/2025, 06:15:34
+Connection OK -> 15/05/2025, 06:15:35
+Yeswehack Data Inserting Successfully -> 15/05/2025, 06:15:41
+[info] Getting Hackerone data ... -> 15/05/2025, 06:59:15
+  [info] Connection OK -> 15/05/2025, 06:59:18
+       [+] Hackerone Data Inserting Successfully -> 15/05/2025, 07:02:37
+[info] Getting Bugcrowd data ... -> 15/05/2025, 07:02:37
+  [info] Connection OK -> 15/05/2025, 07:02:38
+       [+] Bugcrowd Data Inserting Successfully -> 15/05/2025, 07:02:49
+[info] Getting Federacy data ... -> 15/05/2025, 07:02:49
+  [info] Connection OK -> 15/05/2025, 07:02:49
+       [+] Federacy Data Inserting Successfully -> 15/05/2025, 07:02:50
+[info] Getting Intigriti data ... -> 15/05/2025, 07:02:50
+  [info] Connection OK -> 15/05/2025, 07:02:51
+       [+] Intigriti Data Inserting Successfully -> 15/05/2025, 07:02:55
+[info] Getting Yeswehack data ... -> 15/05/2025, 07:02:55
+  [info] Connection OK -> 15/05/2025, 07:02:56
+       [+] Yeswehack Data Inserting Successfully -> 15/05/2025, 07:02:59
+[info] Getting Hackerone data ... -> 15/05/2025, 07:59:13
+  [info] Connection OK -> 15/05/2025, 07:59:16
+  [error] error while deleting label The QuerySet value for an exact lookup must be limited to one result using slicing. -> 15/05/2025, 07:59:16
+       [+] Hackerone Data Inserting Successfully -> 15/05/2025, 08:02:32
+[info] Getting Bugcrowd data ... -> 15/05/2025, 08:02:32
+  [info] Connection OK -> 15/05/2025, 08:02:33
+  [error] error while deleting label The QuerySet value for an exact lookup must be limited to one result using slicing. -> 15/05/2025, 08:02:33
+       [+] Bugcrowd Data Inserting Successfully -> 15/05/2025, 08:02:44
+[info] Getting Federacy data ... -> 15/05/2025, 08:02:44
+  [info] Connection OK -> 15/05/2025, 08:02:46
+  [error] error while deleting label The QuerySet value for an exact lookup must be limited to one result using slicing. -> 15/05/2025, 08:02:46
+       [+] Federacy Data Inserting Successfully -> 15/05/2025, 08:02:47
+[info] Getting Intigriti data ... -> 15/05/2025, 08:02:47
+  [info] Connection OK -> 15/05/2025, 08:02:47
+  [error] error while deleting label The QuerySet value for an exact lookup must be limited to one result using slicing. -> 15/05/2025, 08:02:47
+       [+] Intigriti Data Inserting Successfully -> 15/05/2025, 08:02:52
+[info] Getting Yeswehack data ... -> 15/05/2025, 08:02:52
+  [info] Connection OK -> 15/05/2025, 08:02:53
+  [error] error while deleting label The QuerySet value for an exact lookup must be limited to one result using slicing. -> 15/05/2025, 08:02:53
+       [+] Yeswehack Data Inserting Successfully -> 15/05/2025, 08:02:56
+[info] Getting Hackerone data ... -> 15/05/2025, 08:12:22
+  [info] Connection OK -> 15/05/2025, 08:12:27
+  [error] error while deleting label The QuerySet value for an exact lookup must be limited to one result using slicing. -> 15/05/2025, 08:12:27
+[info] Getting Bugcrowd data ... -> 15/05/2025, 08:13:16
+  [info] Connection OK -> 15/05/2025, 08:13:17
+       [+] Bugcrowd Data Inserting Successfully -> 15/05/2025, 08:13:29
+[info] Getting Federacy data ... -> 15/05/2025, 08:13:29
+  [info] Connection OK -> 15/05/2025, 08:13:31
+       [+] Federacy Data Inserting Successfully -> 15/05/2025, 08:13:31
+[info] Getting Intigriti data ... -> 15/05/2025, 08:13:32
+  [info] Connection OK -> 15/05/2025, 08:13:34
+       [+] Intigriti Data Inserting Successfully -> 15/05/2025, 08:13:39
+[info] Getting Yeswehack data ... -> 15/05/2025, 08:13:39
+  [info] Connection OK -> 15/05/2025, 08:13:41
+       [+] Yeswehack Data Inserting Successfully -> 15/05/2025, 08:13:44
+[info] Getting Hackerone data ... -> 15/05/2025, 08:13:44
+  [info] Connection OK -> 15/05/2025, 08:13:48
+       [+] Hackerone Data Inserting Successfully -> 15/05/2025, 08:17:13
+[info] Getting Hackerone data ... -> 15/05/2025, 14:35:18
+      [info] Connection OK -> 15/05/2025, 14:35:21
+       [+] Hackerone Data Inserting Successfully -> 15/05/2025, 14:38:46
+[info] Getting Bugcrowd data ... -> 15/05/2025, 14:38:46
+      [info] Connection OK -> 15/05/2025, 14:38:48
+       [+] Bugcrowd Data Inserting Successfully -> 15/05/2025, 14:39:00
+[info] Getting Federacy data ... -> 15/05/2025, 14:39:00
+      [info] Connection OK -> 15/05/2025, 14:39:01
+       [+] Federacy Data Inserting Successfully -> 15/05/2025, 14:39:02
+[info] Getting Intigriti data ... -> 15/05/2025, 14:39:02
+      [info] Connection OK -> 15/05/2025, 14:39:03
+       [+] Intigriti Data Inserting Successfully -> 15/05/2025, 14:39:08
+[info] Getting Yeswehack data ... -> 15/05/2025, 14:39:09
+      [info] Connection OK -> 15/05/2025, 14:39:10
+       [+] Yeswehack Data Inserting Successfully -> 15/05/2025, 14:39:13
+[info] Getting Hackerone data ... -> 17/05/2025, 09:29:14
+      [info] Connection OK -> 17/05/2025, 09:29:37
+       [+] Hackerone Data Inserting Successfully -> 17/05/2025, 09:32:55
+[info] Getting Bugcrowd data ... -> 17/05/2025, 09:32:55
+      [info] Connection OK -> 17/05/2025, 09:33:14
+       [+] Bugcrowd Data Inserting Successfully -> 17/05/2025, 09:33:26
+[info] Getting Federacy data ... -> 17/05/2025, 09:33:26
+      [info] Connection OK -> 17/05/2025, 09:33:36
+       [+] Federacy Data Inserting Successfully -> 17/05/2025, 09:33:37
+[info] Getting Intigriti data ... -> 17/05/2025, 09:33:37
+      [info] Connection OK -> 17/05/2025, 09:33:41
+       [+] Intigriti Data Inserting Successfully -> 17/05/2025, 09:33:46
+[info] Getting Yeswehack data ... -> 17/05/2025, 09:33:46
+      [info] Connection OK -> 17/05/2025, 09:33:49
+       [+] Yeswehack Data Inserting Successfully -> 17/05/2025, 09:33:53
+[info] Starting Subfinder for 'uber.com'... -> 17/05/2025, 09:34:00
+ [+] 482 subs found for uber.com -> 17/05/2025, 09:34:07
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 09:34:09
+ [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 09:34:19
+[info] Starting Subfinder for 'icollab.info'... -> 17/05/2025, 09:34:19
+ [+] 7 subs found for icollab.info -> 17/05/2025, 09:34:42
+[info] Starting Subfinder for 'google.com'... -> 17/05/2025, 09:34:42
+ [+] 5807 subs found for google.com -> 17/05/2025, 09:34:46
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 09:35:50
+ [+] 5 subs found for voorivex.academy -> 17/05/2025, 09:35:54
+[info] Starting HTTPx on 'icollab.info - asghar'... -> 17/05/2025, 09:35:54
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:36:09
+     [+] Starting Save Httpx Results -> 17/05/2025, 09:36:09
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 09:36:09
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:36:23
+     [+] Starting Save Httpx Results -> 17/05/2025, 09:36:23
+[info] Starting HTTPx on 'uber.com - mamad'... -> 17/05/2025, 09:36:23
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:37:42
+     [+] Starting Save Httpx Results -> 17/05/2025, 09:37:42
+[info] Starting HTTPx on 'memoryleaks.ir - mamad'... -> 17/05/2025, 09:37:44
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:37:53
+     [+] Starting Save Httpx Results -> 17/05/2025, 09:37:53
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 17/05/2025, 09:37:53
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:37:57
+     [+] Starting Save Httpx Results -> 17/05/2025, 09:37:57
+[info] Starting Subfinder for 'google.com'... -> 17/05/2025, 09:40:06
+ [+] 833 subs found for google.com -> 17/05/2025, 09:40:12
+[info] Starting Subfinder for 'icollab.info'... -> 17/05/2025, 09:40:22
+ [+] 7 subs found for icollab.info -> 17/05/2025, 09:40:42
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 09:40:42
+ [+] 5 subs found for voorivex.academy -> 17/05/2025, 09:40:45
+[info] Starting Subfinder for 'uber.com'... -> 17/05/2025, 09:40:45
+ [+] 398 subs found for uber.com -> 17/05/2025, 09:41:05
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 09:41:06
+ [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 09:41:16
+[info] Starting HTTPx on 'icollab.info - asghar'... -> 17/05/2025, 09:41:16
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:41:32
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:41:32
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 09:41:32
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:41:47
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:41:47
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 17/05/2025, 09:41:47
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:41:51
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:41:51
+[error] Subdomain discovery failed: Field 'port_change' expected a number but got '443 -> 443'. -> 17/05/2025, 09:41:51
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 09:42:44
+ [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 09:42:51
+[info] Starting Subfinder for 'uber.com'... -> 17/05/2025, 09:42:51
+ [+] 10098 subs found for uber.com -> 17/05/2025, 09:42:55
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 09:44:05
+ [+] 5 subs found for voorivex.academy -> 17/05/2025, 09:44:08
+[info] Starting Subfinder for 'icollab.info'... -> 17/05/2025, 09:44:08
+ [+] 7 subs found for icollab.info -> 17/05/2025, 09:44:28
+[info] Starting Subfinder for 'google.com'... -> 17/05/2025, 09:44:28
+ [+] 833 subs found for google.com -> 17/05/2025, 09:44:36
+[info] Starting HTTPx on 'icollab.info - asghar'... -> 17/05/2025, 09:44:45
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:45:00
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:45:00
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 09:45:00
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:45:12
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:45:12
+[info] Starting HTTPx on 'memoryleaks.ir - mamad'... -> 17/05/2025, 09:45:12
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:45:20
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:45:20
+[info] Starting HTTPx on 'uber.com - mamad'... -> 17/05/2025, 09:45:20
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-tech-detect', '-web-server', '-ip', '-cname', '-cdn', '-location', '-content-length', '-tls-probe', '-method', '-path', '-probe', '-no-color', '-json', '-silent', '-threads', '50', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 1. -> 17/05/2025, 09:53:23
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 17/05/2025, 09:53:23
+ [*] Starting Parsing Data ... -> 17/05/2025, 09:53:27
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:53:27
+[info] Starting Subfinder for 'icollab.info'... -> 17/05/2025, 09:56:12
+  [+] 7 subs found for icollab.info -> 17/05/2025, 09:57:13
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 09:57:13
+  [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 09:58:13
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 09:58:13
+  [+] 5 subs found for voorivex.academy -> 17/05/2025, 09:59:14
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 09:59:14
+  [*] Starting Parsing Data ... -> 17/05/2025, 09:59:30
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:59:30
+[info] Starting HTTPx on 'memoryleaks.ir - mamad'... -> 17/05/2025, 09:59:30
+  [*] Starting Parsing Data ... -> 17/05/2025, 09:59:35
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:59:35
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 17/05/2025, 09:59:35
+  [*] Starting Parsing Data ... -> 17/05/2025, 09:59:39
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 09:59:39
+[info] Starting HTTPx on 'uber.com - mamad'... -> 17/05/2025, 09:59:39
+[error] HTTPx failed: Command '['httpx', '-l', 'private_watchers/outputs/subdomains_httpx.txt', '-title', '-status-code', '-tech-detect', '-web-server', '-ip', '-cname', '-cdn', '-location', '-content-length', '-tls-probe', '-method', '-path', '-probe', '-no-color', '-json', '-silent', '-threads', '50', '-timeout', '10', '-o', 'private_watchers/outputs/subdomains_httpx.txt_output.jsonl']' returned non-zero exit status 1. -> 17/05/2025, 10:00:12
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 10:00:20
+  [+] 5 subs found for voorivex.academy -> 17/05/2025, 10:01:22
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 10:01:22
+  [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 10:02:23
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 10:02:23
+  [*] Starting Parsing Data ... -> 17/05/2025, 10:02:39
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 10:02:39
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 17/05/2025, 10:02:39
+  [*] Starting Parsing Data ... -> 17/05/2025, 10:02:43
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 10:02:43
+[info] Starting HTTPx on 'memoryleaks.ir - mamad'... -> 17/05/2025, 10:02:43
+  [*] Starting Parsing Data ... -> 17/05/2025, 10:02:48
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 10:02:48
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 10:06:21
+  [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 10:07:23
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 10:07:23
+  [+] 5 subs found for voorivex.academy -> 17/05/2025, 10:08:26
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 10:08:26
+[info] Starting Subfinder for 'voorivex.academy'... -> 17/05/2025, 10:09:38
+  [+] 5 subs found for voorivex.academy -> 17/05/2025, 10:10:39
+[info] Starting Subfinder for 'memoryleaks.ir'... -> 17/05/2025, 10:10:39
+  [+] 7 subs found for memoryleaks.ir -> 17/05/2025, 10:11:42
+[info] Starting HTTPx on 'icollab.info - nexovir'... -> 17/05/2025, 10:11:43
+  [*] Starting Parsing Data ... -> 17/05/2025, 10:11:57
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 10:11:57
+[info] Starting HTTPx on 'memoryleaks.ir - mamad'... -> 17/05/2025, 10:11:57
+  [*] Starting Parsing Data ... -> 17/05/2025, 10:12:07
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 10:12:07
+[info] Starting HTTPx on 'voorivex.academy - mamad'... -> 17/05/2025, 10:12:07
+  [*] Starting Parsing Data ... -> 17/05/2025, 10:12:11
+     [+] Starting Save Httpx Results and Detect Changes -> 17/05/2025, 10:12:11

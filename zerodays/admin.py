@@ -34,7 +34,7 @@ class ZeroDayCategoryAdmin(nested_admin.NestedModelAdmin):
 
 @register(ZeroDay)
 class ZeroDayAdmin(admin.ModelAdmin):
-    list_display = ['id','owner' , 'category' , 'reported_at' , 'is_verified', 'is_active']
+    list_display = [field.name for field in ZeroDay._meta.fields if field.name not in ('description', 'affected_products', 'exploit_vector', 'impact', 'cve_reference')] + ['like_count', 'comment_count']
     list_editable = ['is_verified' , 'is_active']
     inlines = [RatingInline]
 
@@ -43,7 +43,7 @@ class ZeroDayAdmin(admin.ModelAdmin):
 
 @register(ZeroDayAuction)
 class ZeroDayAuctionAdmin (admin.ModelAdmin):
-    list_display = ['zeroday' , 'seller' , 'starting_price' , 'current_price' , 'start_time' , 'end_time' , 'last_bid_time' ,'is_active']
+    list_display = [field.name for field in ZeroDayAuction._meta.fields] + ['like_count', 'comment_count']
     list_editable = ['is_active' , ]
 
 

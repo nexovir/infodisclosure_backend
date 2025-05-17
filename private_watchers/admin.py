@@ -76,6 +76,15 @@ class SubdomainHttpxAdmin(admin.ModelAdmin):
     ordering = ['created_at', 'updated_at' , 'label']
 
 
+@admin.register(SubdomainHttpxChanges)
+class SubdomainHttpxChangesAdmin(admin.ModelAdmin):
+    list_display = ['id' , 'discovered_subdomain' , 'label' , 'status_code_change' , 'title_change' , 'server_change' , 'has_ssl_change' , 'ip_address_change' , 'port_change']
+    list_filter = ['label']
+    search_fields = ['discovered_subdomain__subdomain' , 'ip_address_change']
+    ordering = ['created_at' , 'updated_at' , 'label']
+
+
+    
 @admin.register(JSFileWatcher)
 class JSFileWatcherAdmin(admin.ModelAdmin):
     list_display = ('id', 'user', 'status', 'last_checked', 'notify')

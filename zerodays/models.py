@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 from users.models import BaseModel
 from django.utils import timezone
+from django.contrib.contenttypes.fields import GenericRelation
+from interactions.models import Like, Comment
 
 
 
@@ -36,13 +38,21 @@ class ZeroDay (BaseModel):
     severity = models.CharField(max_length=20, choices=SEVERITY_CHOICES, default="Medium", blank=True , null=True)
     exploit_vector = models.CharField(max_length=100, help_text="E.g., Remote, Local, Web-based", blank=True , null=True)
     impact = models.CharField(max_length=100, help_text="E.g., RCE, LFI, SQLi, PrivEsc", blank=True , null=True)
-
+    likes = GenericRelation(Like)
+    comments = GenericRelation(Comment)
+    
     cve_reference = models.CharField(max_length=50, blank=True, null=True, help_text="Optional CVE reference if it exists.")
     reported_at = models.DateTimeField(auto_now_add=True)
     is_verified = models.BooleanField(default=False, help_text="Indicates whether the zero-day has been verified.")
 
     def __str__(self):
         return f"{self.category.title} by {self.owner}"
+
+    def like_count(self):
+        return self.likes.count()
+
+    def comment_count(self):
+        return self.comments.count()
 
     class Meta:
         verbose_name = 'Zero Day'
@@ -60,9 +70,20 @@ class ZeroDayAuction(BaseModel):
     start_time = models.DateTimeField(default=timezone.now)
     end_time = models.DateTimeField()
     last_bid_time = models.DateTimeField(blank=True, null=True, help_text="Last time a bid was placed.")
+    
+    likes = GenericRelation(Like)
+    comments = GenericRelation(Comment)
+
 
     def __str__(self):
         return f"Auction for {self.zeroday} by {self.seller}"
+
+    def like_count(self):
+        return self.likes.count()
+
+    def comment_count(self):
+        return self.comments.count()
+    
 
     class Meta:
         verbose_name = 'Zero Day Auction'

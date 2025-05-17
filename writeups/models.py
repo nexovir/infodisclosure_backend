@@ -3,6 +3,8 @@ from django.contrib.auth.models import User # type: ignore
 from users.models import BaseModel
 from techniques.models import *
 from tools.models import *
+from django.contrib.contenttypes.fields import GenericRelation
+from interactions.models import Like, Comment
 
 
 class WriteupCategory(BaseModel):
@@ -44,8 +46,19 @@ class WriteUp(BaseModel):
     is_public = models.BooleanField(default=False)
     approved = models.BooleanField(default=False)
 
+    # Likes and Comments 
+    likes = GenericRelation(Like)
+    comments = GenericRelation(Comment)
+
+
     def __str__(self):
         return self.title
+    
+    def like_count(self):
+        return self.likes.count()
+
+    def comment_count(self):
+        return self.comments.count()
     
     class Meta :
         verbose_name = 'WriteUp'

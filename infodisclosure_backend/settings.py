@@ -57,6 +57,8 @@ INSTALLED_APPS = [
     'public_watchers',
     'private_watchers',
     'rating',
+    'chats',
+    'interactions',
     
         
 ]

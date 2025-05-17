@@ -16,7 +16,7 @@ class SubCategoryInline(nested_admin.NestedTabularInline):
 
 @register(Tool)
 class ToolAdmin(admin.ModelAdmin):
-    list_display = ['title', 'author', 'category' , 'access_token' , 'price' , 'is_free' , 'is_public' , 'approved' , 'is_active']
+    list_display = ['title', 'author', 'category' , 'access_token' , 'price' , 'is_free' , 'is_public' , 'approved' , 'like_count' , 'comment_count', 'is_active']
     prepopulated_fields = {'slug': ('title',)}
     list_editable = ['is_active' , 'approved']
 
